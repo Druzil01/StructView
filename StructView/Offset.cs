@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.IO;
 using System.Xml.Serialization;
+using StructView.Framework;
 
 namespace StructView
 {
@@ -13,7 +14,9 @@ namespace StructView
         Integer,
         Float,
         String,
-        Pointer
+        Pointer,
+        Byte,
+        Bit,
     }
 
     [Serializable]
@@ -58,6 +61,7 @@ namespace StructView
         [XmlIgnore] // Adress is calculated. no need to save
         public int adress { get; set; }
         public int Offset { get; set; }
+        [XmlIgnore]
         public cOffset Parent { get; set; }
         public string description { get; set; }
         public List<cOffset> Children { get; set; }
@@ -68,6 +72,7 @@ namespace StructView
             adress = 0;
             Offset = 0;
             description = "";
+            Parent = null;
             Children = new List<cOffset>();
         }
 
@@ -77,13 +82,28 @@ namespace StructView
             Offset = offs;
         }
 
-
         public cOffset(String desc, int offs,string structure)
             : this(desc,offs)
         {
             Structure = structure;
         }
 
+        public string getOffsChain()
+        {
+            if (Parent != null)
+                return Parent.getOffsChain() + "," + Offset.ToString("X8").TrimStart('0');
+            else
+                return Offset.ToString("X8").TrimStart('0');
+        }
+
+        public int Adress(Memory mem)
+        {
+            
+            if (Parent != null)
+                return mem.ReadInt(Parent.Adress(mem) + Offset);
+            else
+                return mem.ReadInt(mem.BaseAddress+Offset);
+        }
     }
 
     [Serializable]

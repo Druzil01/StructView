@@ -44,20 +44,40 @@ namespace StructView
             FindPoeProcess();
             if (pid != 0) // Process found : calc Adresses
             {
-                CalcAdress(mem.BaseAddress, Project.Poe.Offsets);
+                CalcAdress(mem.BaseAddress, Project.Poe.Offsets,null);
             }
         }
 
         private void initializeDemoStruct()
         {
             cStructure s = new cStructure();
-            s.Name = "UiElement";
+            s.Name = "Element";
             s.Fields.Add (new cField(0x86C, "x-Position",DataType.Float));
             s.Fields.Add (new cField(0x870, "x-Position",DataType.Float));
             s.Fields.Add (new cField(0x8F8, "Widht",DataType.Float));
             s.Fields.Add (new cField(0x8FC, "Height",DataType.Float));
             s.Fields.Add (new cField(0x8a4, "isClickable -> not sure!!", DataType.Float));
             Project.Poe.Structs.Add(s);
+
+            s = new cStructure();
+            s.Name = "Inventory";
+            s.Fields.Add(new cField(0xC, "Width", DataType.Integer));
+            s.Fields.Add(new cField(0x10, "Height", DataType.Integer));
+            s.Fields.Add(new cField(0x20, "ListStart", DataType.Pointer));
+            s.Fields.Add(new cField(0x24, "ListEnd", DataType.Pointer));
+            Project.Poe.Structs.Add(s);
+
+
+            s = new cStructure();
+            s.Name = "Entity";
+            s.Fields.Add(new cField(0x4, "ComponentList-Start", DataType.Pointer));
+            s.Fields.Add(new cField(0x8, "ComponentList-Start", DataType.Pointer));
+            s.Fields.Add(new cField(0x18, "Id", DataType.Integer));
+            s.Fields.Add(new cField(0x10, "Hostile", DataType.Bit));
+            s.Fields.Add(new cField(0x20, "ListStart", DataType.Pointer));
+            s.Fields.Add(new cField(0x24, "ListEnd", DataType.Pointer));
+            Project.Poe.Structs.Add(s);
+
         }
 
         private void initializeDemoTree()
@@ -114,8 +134,8 @@ namespace StructView
 
             a.Children[0].Children.Add (new cOffset("Unknown ... Path to Flask", 0x4c, ""));
             a.Children[0].Children[1].Children.Add(new cOffset("Unknown ... Path to Flask", 0x968, ""));
-            a.Children[0].Children[1].Children[0].Children.Add(new cOffset("Unknown ... Path to Flask", 0x984, ""));
-            a.Children[0].Children[1].Children[0].Children[0].Children.Add(new cOffset("Unknown ... Path to Flask", 0x20, ""));
+            a.Children[0].Children[1].Children[0].Children.Add(new cOffset("Flask-Inventory", 0x984, "Inventory"));
+            a.Children[0].Children[1].Children[0].Children[0].Children.Add(new cOffset("FlaskInventory List Start", 0x20, ""));
             a.Children[0].Children[1].Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 1", 0x0, ""));
             a.Children[0].Children[1].Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 2", 0x4, ""));
             a.Children[0].Children[1].Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 3", 0x8, ""));
@@ -128,45 +148,50 @@ namespace StructView
             a.Offset = 0x5E8;
 
             
-            i = new cOffset("HpGlobe", 0x40,"UiElement"); a.Children.Add(i);
-            i = new cOffset("ManaGlobe", 0x44,"UiElement"); a.Children.Add(i);
-            i = new cOffset("Flasks", 0x4C,"UiElement"); a.Children.Add(i);
-            i = new cOffset("XpBar", 0x50,"UiElement"); a.Children.Add(i);
-            i = new cOffset("MenuButton", 0x54,"UiElement"); a.Children.Add(i);
-            i = new cOffset("ShopButton", 0x7C,"UiElement"); a.Children.Add(i);
-            i = new cOffset("HideoutEditButton", 0x84,"UiElement"); a.Children.Add(i);
-            i = new cOffset("HideoutStashButton", 0x88,"UiElement"); a.Children.Add(i);
-            i = new cOffset("SkillPointAvailable", 0x8C,"UiElement"); a.Children.Add(i);
-            i = new cOffset("ChatButton", 0x9C,"UiElement"); a.Children.Add(i);
-            i = new cOffset("Mouseposition", 0xA0,"UiElement"); a.Children.Add(i);
-            i = new cOffset("ActionButtons", 0xA4,"UiElement"); a.Children.Add(i);
-            i = new cOffset("SkillSelectWindow", 0xA8,"UiElement"); a.Children.Add(i);
-            i = new cOffset("Chat", 0xDC,"UiElement"); a.Children.Add(i);
-            i = new cOffset("QuestTracker", 0xEC,"UiElement"); a.Children.Add(i);
-            i = new cOffset("MtxInventory", 0xF0,"UiElement"); a.Children.Add(i);
-            i = new cOffset("MtxShop", 0xF4,"UiElement"); a.Children.Add(i);
-            i = new cOffset("InventoryPanel", 0xF8,"UiElement"); a.Children.Add(i);
-            i = new cOffset("StashPanel", 0xFc,"UiElement"); a.Children.Add(i);
-            i = new cOffset("SocialPanel", 0x108,"UiElement"); a.Children.Add(i);
-            i = new cOffset("TreePanel", 0x10c,"UiElement"); a.Children.Add(i);
-            i = new cOffset("CharacterPanel", 0x110,"UiElement"); a.Children.Add(i);
-            i = new cOffset("OptionsPanel", 0x114,"UiElement"); a.Children.Add(i);
-            i = new cOffset("AchievementsPanel", 0x118,"UiElement"); a.Children.Add(i);
-            i = new cOffset("WorldPanel", 0x11c,"UiElement"); a.Children.Add(i);
-            i = new cOffset("Minimap", 0x120,"UiElement"); a.Children.Add(i);
-            i = new cOffset("ItemsOnGroundLabels", 0x124,"UiElement"); a.Children.Add(i);
-            i = new cOffset("MonsterHpLabels", 0x128,"UiElement"); a.Children.Add(i);
-            i = new cOffset("Buffs", 0x134,"UiElement"); a.Children.Add(i);
-            i = new cOffset("Buffs2", 0x190,"UiElement"); a.Children.Add(i);
-            i = new cOffset("OpenLeftPanel", 0x158,"UiElement"); a.Children.Add(i);
-            i = new cOffset("OpenRightPanel", 0x15c,"UiElement"); a.Children.Add(i);
-            i = new cOffset("OpenNpcDialogPanel", 0x164,"UiElement"); a.Children.Add(i);
-            i = new cOffset("CreatureInfoPanel", 0x188,"UiElement"); a.Children.Add(i);
-            i = new cOffset("InstanceManagerPanel", 0x19c,"UiElement"); a.Children.Add(i);
-            i = new cOffset("InstanceManagerPanel2", 0x1a0,"UiElement"); a.Children.Add(i);
-            i = new cOffset("SwitchingZoneInfo", 0x1C8,"UiElement"); a.Children.Add(i);
-            i = new cOffset("GemLvlUpPanel", 0x1Fc,"UiElement"); a.Children.Add(i);
-            i = new cOffset("ItemOnGroundTooltip", 0x20C,"UiElement"); a.Children.Add(i);
+            i = new cOffset("HpGlobe", 0x40,"Element"); a.Children.Add(i);
+            i = new cOffset("ManaGlobe", 0x44,"Element"); a.Children.Add(i);
+            i = new cOffset("Flasks", 0x4C,"Element"); a.Children.Add(i);
+            i = new cOffset("XpBar", 0x50,"Element"); a.Children.Add(i);
+            i = new cOffset("MenuButton", 0x54,"Element"); a.Children.Add(i);
+            i = new cOffset("ShopButton", 0x7C,"Element"); a.Children.Add(i);
+            i = new cOffset("HideoutEditButton", 0x84,"Element"); a.Children.Add(i);
+            i = new cOffset("HideoutStashButton", 0x88,"Element"); a.Children.Add(i);
+            i = new cOffset("SkillPointAvailable", 0x8C,"Element"); a.Children.Add(i);
+            i = new cOffset("ChatButton", 0x9C,"Element"); a.Children.Add(i);
+            i = new cOffset("Mouseposition", 0xA0,"Element"); a.Children.Add(i);
+            i = new cOffset("ActionButtons", 0xA4,"Element"); a.Children.Add(i);
+            i = new cOffset("SkillSelectWindow", 0xA8,"Element"); a.Children.Add(i);
+            i = new cOffset("Chat", 0xDC,"Element"); a.Children.Add(i);
+            i = new cOffset("QuestTracker", 0xEC,"Element"); a.Children.Add(i);
+            i = new cOffset("MtxInventory", 0xF0,"Element"); a.Children.Add(i);
+            i = new cOffset("MtxShop", 0xF4,"Element"); a.Children.Add(i);
+            i = new cOffset("InventoryPanel", 0xF8,"Element"); a.Children.Add(i);
+            i = new cOffset("StashPanel", 0xFc,"Element"); a.Children.Add(i);
+            i = new cOffset("SocialPanel", 0x108,"Element"); a.Children.Add(i);
+            i = new cOffset("TreePanel", 0x10c,"Element"); a.Children.Add(i);
+            i = new cOffset("CharacterPanel", 0x110,"Element"); a.Children.Add(i);
+            i = new cOffset("OptionsPanel", 0x114,"Element"); a.Children.Add(i);
+            i = new cOffset("AchievementsPanel", 0x118,"Element"); a.Children.Add(i);
+            i = new cOffset("WorldPanel", 0x11c,"Element"); a.Children.Add(i);
+            i = new cOffset("Minimap", 0x120,"Element"); a.Children.Add(i);
+            i = new cOffset("ItemsOnGroundLabels", 0x124,"Element"); a.Children.Add(i);
+            i = new cOffset("MonsterHpLabels", 0x128,"Element"); a.Children.Add(i);
+            i = new cOffset("Buffs", 0x134,"Element"); a.Children.Add(i);
+            i = new cOffset("Buffs2", 0x190,"Element"); a.Children.Add(i);
+            i = new cOffset("OpenLeftPanel", 0x158,"Element"); a.Children.Add(i);
+            i = new cOffset("OpenRightPanel", 0x15c,"Element"); a.Children.Add(i);
+            i = new cOffset("OpenNpcDialogPanel", 0x164,"Element"); a.Children.Add(i);
+            i = new cOffset("CreatureInfoPanel", 0x188,"Element"); a.Children.Add(i);
+            i = new cOffset("InstanceManagerPanel", 0x19c,"Element"); a.Children.Add(i);
+            i = new cOffset("InstanceManagerPanel2", 0x1a0,"Element"); a.Children.Add(i);
+            i = new cOffset("SwitchingZoneInfo", 0x1C8,"Element"); a.Children.Add(i);
+            i = new cOffset("GemLvlUpPanel", 0x1Fc,"Element"); a.Children.Add(i);
+            i = new cOffset("ItemOnGroundTooltip", 0x20C,"Element"); a.Children.Add(i);
+
+
+            //o.Children.Add(new cOffset("UiRoot", 0xc0c));
+            //o.Children.Add(new cOffset("UiHover", 0xc20));
+            //o.Children.Add(new cOffset("EntityLabelmap-", 0x44));
 
             o.Children.Add(new cOffset());
             a = o.Children[3];
@@ -175,8 +200,12 @@ namespace StructView
 
             o.Children.Add(new cOffset());
             a = o.Children[4];
-            a.description = "UiHover";
+            a.description = "UiHover-> noty yet correct";
             a.Offset = 0xC20;
+            a.Structure = "Element";
+
+            a.Children.Add (new cOffset("tooltip",0xAEC,""));
+            a.Children.Add(new cOffset("Item", 0xB10, "Entity"));
 
             o.Children.Add(new cOffset());
             a = o.Children[5];
@@ -218,8 +247,9 @@ namespace StructView
         {
             cOffset o = (cOffset)e.Node.Tag;
             txt_desc.Text = o.description;
-            txt_offs.Text = o.Offset.ToString("X8");//.TrimStart('0');
-            txt_adr.Text = o.adress.ToString("X8");//.TrimStart('0');
+            txt_offs.Text = o.Offset.ToString("X8").TrimStart('0');
+            txt_adr.Text = o.Adress(mem).ToString("X8").TrimStart('0');//o.adress.ToString("X8").TrimStart('0');
+            txt_ofsChain.Text = o.getOffsChain();
             dta.Items.Clear();
             if (!string.IsNullOrEmpty(o.Structure))
             {
@@ -230,7 +260,27 @@ namespace StructView
                     {
                         ListViewItem row = new ListViewItem(f.Offset.ToString("X8").TrimStart('0'));
                         row.SubItems.Add(f.Description); 
-                        row.SubItems.Add(f.Type.ToString()); 
+                        row.SubItems.Add(f.Type.ToString());
+                        string val = "";
+                        switch (f.Type)
+                        {
+                            case DataType.Integer:
+                                val = mem.ReadInt(o.adress + f.Offset).ToString();
+                                break;
+                            case DataType.Float:
+                                val = mem.ReadFloat(o.adress + f.Offset).ToString();
+                                break;
+                            case DataType.Pointer:
+                                val = "p->"+mem.ReadInt(o.adress + f.Offset).ToString("X8");
+                                break;
+                            case DataType.String:
+                                val = mem.ReadString(o.adress + f.Offset,255);
+                                break;
+                            case DataType.Bit:
+                                val = (mem.ReadByte(o.adress + f.Offset) & 1).ToString();
+                                break;
+                        }
+                        row.SubItems.Add(val);
                         dta.Items.Add(row);
                     }
                 }
@@ -245,13 +295,48 @@ namespace StructView
             }
         }
 
-        private void CalcAdress(int adress, List<cOffset> Base)
+        private void CalcAdress(int adress, List<cOffset> Base,cOffset parent)
         {
             foreach (cOffset c in Base)
             {
                 c.adress = mem.ReadInt(adress + c.Offset);
-                CalcAdress(c.adress, c.Children);
+                c.Parent = parent;
+                CalcAdress(c.adress, c.Children,c);
             }
+        }
+
+        private void addOffsetToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            cOffset offs = (cOffset)tv.SelectedNode.Tag;
+            cOffset newOffs = new cOffset("New Offset",0);
+            offs.Children.Add(newOffs);
+            TreeNode n = new TreeNode(newOffs.description);
+            n.Tag = newOffs;
+            tv.SelectedNode.Nodes.Add(n);
+            tv.SelectedNode.Expand();
+        }
+
+        private void tv_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {
+                tv.SelectedNode = e.Node;
+            }
+        }
+
+        private void txt_desc_Leave(object sender, EventArgs e)
+        {
+            cOffset ofs = (cOffset)tv.SelectedNode.Tag;
+            ofs.description = txt_desc.Text;
+            tv.SelectedNode.Text = ofs.description;
+        }
+
+        private void txt_offs_Leave(object sender, EventArgs e)
+        {
+            cOffset ofs = (cOffset)tv.SelectedNode.Tag;
+            //ofs.Offset = txt_offs.Text;
+            //tv.SelectedNode.Text = ofs.description;
+
         }
     }
 }

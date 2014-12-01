@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "0",
@@ -55,6 +56,10 @@
             this.quitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calcMemAdressToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tvContext = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.addOffsetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txt_ofsChain = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -64,13 +69,14 @@
             this.DataSplit.Panel2.SuspendLayout();
             this.DataSplit.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            this.tvContext.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.splitContainer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.splitContainer1.Location = new System.Drawing.Point(0, 27);
             this.splitContainer1.Name = "splitContainer1";
@@ -82,26 +88,28 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.DataSplit);
-            this.splitContainer1.Size = new System.Drawing.Size(997, 432);
-            this.splitContainer1.SplitterDistance = 486;
+            this.splitContainer1.Size = new System.Drawing.Size(1020, 431);
+            this.splitContainer1.SplitterDistance = 497;
             this.splitContainer1.TabIndex = 0;
             // 
             // tv
             // 
-            this.tv.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.tv.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tv.ContextMenuStrip = this.tvContext;
             this.tv.Location = new System.Drawing.Point(11, 10);
             this.tv.Name = "tv";
-            this.tv.Size = new System.Drawing.Size(460, 404);
+            this.tv.Size = new System.Drawing.Size(471, 403);
             this.tv.TabIndex = 0;
             this.tv.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tv_AfterSelect);
+            this.tv.NodeMouseClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.tv_NodeMouseClick);
             // 
             // DataSplit
             // 
-            this.DataSplit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.DataSplit.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.DataSplit.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.DataSplit.Location = new System.Drawing.Point(0, 0);
             this.DataSplit.Name = "DataSplit";
@@ -111,6 +119,8 @@
             // 
             this.DataSplit.Panel1.Controls.Add(this.txt_adr);
             this.DataSplit.Panel1.Controls.Add(this.label3);
+            this.DataSplit.Panel1.Controls.Add(this.txt_ofsChain);
+            this.DataSplit.Panel1.Controls.Add(this.label4);
             this.DataSplit.Panel1.Controls.Add(this.txt_offs);
             this.DataSplit.Panel1.Controls.Add(this.label2);
             this.DataSplit.Panel1.Controls.Add(this.txt_desc);
@@ -121,14 +131,14 @@
             // 
             this.DataSplit.Panel2.Controls.Add(this.dta);
             this.DataSplit.Panel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.DataSplit.Size = new System.Drawing.Size(503, 428);
-            this.DataSplit.SplitterDistance = 104;
+            this.DataSplit.Size = new System.Drawing.Size(515, 427);
+            this.DataSplit.SplitterDistance = 103;
             this.DataSplit.TabIndex = 0;
             // 
             // txt_adr
             // 
             this.txt_adr.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.txt_adr.Location = new System.Drawing.Point(80, 77);
+            this.txt_adr.Location = new System.Drawing.Point(80, 76);
             this.txt_adr.Name = "txt_adr";
             this.txt_adr.Size = new System.Drawing.Size(91, 20);
             this.txt_adr.TabIndex = 1;
@@ -137,7 +147,7 @@
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 77);
+            this.label3.Location = new System.Drawing.Point(12, 76);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 13);
             this.label3.TabIndex = 0;
@@ -149,6 +159,7 @@
             this.txt_offs.Name = "txt_offs";
             this.txt_offs.Size = new System.Drawing.Size(91, 20);
             this.txt_offs.TabIndex = 1;
+            this.txt_offs.Leave += new System.EventHandler(this.txt_offs_Leave);
             // 
             // label2
             // 
@@ -161,12 +172,13 @@
             // 
             // txt_desc
             // 
-            this.txt_desc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_desc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txt_desc.Location = new System.Drawing.Point(80, 14);
             this.txt_desc.Name = "txt_desc";
-            this.txt_desc.Size = new System.Drawing.Size(408, 20);
+            this.txt_desc.Size = new System.Drawing.Size(420, 20);
             this.txt_desc.TabIndex = 1;
+            this.txt_desc.Leave += new System.EventHandler(this.txt_desc_Leave);
             // 
             // label1
             // 
@@ -190,7 +202,7 @@
             listViewItem1});
             this.dta.Location = new System.Drawing.Point(0, 0);
             this.dta.Name = "dta";
-            this.dta.Size = new System.Drawing.Size(499, 316);
+            this.dta.Size = new System.Drawing.Size(511, 316);
             this.dta.TabIndex = 1;
             this.dta.UseCompatibleStateImageBehavior = false;
             this.dta.View = System.Windows.Forms.View.Details;
@@ -220,7 +232,7 @@
             this.dataToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(997, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1020, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -237,20 +249,20 @@
             // loadToolStripMenuItem
             // 
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            this.loadToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.loadToolStripMenuItem.Text = "Load";
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // quitToolStripMenuItem
             // 
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.quitToolStripMenuItem.Text = "Quit";
             // 
             // dataToolStripMenuItem
@@ -268,11 +280,45 @@
             this.calcMemAdressToolStripMenuItem.Text = "Calc Mem Adress";
             this.calcMemAdressToolStripMenuItem.Click += new System.EventHandler(this.calcMemAdressToolStripMenuItem_Click);
             // 
+            // tvContext
+            // 
+            this.tvContext.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.addOffsetToolStripMenuItem});
+            this.tvContext.Name = "tvContext";
+            this.tvContext.Size = new System.Drawing.Size(132, 26);
+            // 
+            // addOffsetToolStripMenuItem
+            // 
+            this.addOffsetToolStripMenuItem.Name = "addOffsetToolStripMenuItem";
+            this.addOffsetToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.addOffsetToolStripMenuItem.Text = "Add Offset";
+            this.addOffsetToolStripMenuItem.Click += new System.EventHandler(this.addOffsetToolStripMenuItem_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(175, 40);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(53, 13);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Ofs-Chain";
+            // 
+            // txt_ofsChain
+            // 
+            this.txt_ofsChain.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_ofsChain.Location = new System.Drawing.Point(231, 40);
+            this.txt_ofsChain.Name = "txt_ofsChain";
+            this.txt_ofsChain.ReadOnly = true;
+            this.txt_ofsChain.Size = new System.Drawing.Size(269, 20);
+            this.txt_ofsChain.TabIndex = 1;
+            this.txt_ofsChain.Leave += new System.EventHandler(this.txt_offs_Leave);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(997, 460);
+            this.ClientSize = new System.Drawing.Size(1020, 459);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -289,6 +335,7 @@
             this.DataSplit.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.tvContext.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -317,6 +364,10 @@
         private System.Windows.Forms.ColumnHeader Curent_Value;
         private System.Windows.Forms.ToolStripMenuItem dataToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem calcMemAdressToolStripMenuItem;
+        private System.Windows.Forms.ContextMenuStrip tvContext;
+        private System.Windows.Forms.ToolStripMenuItem addOffsetToolStripMenuItem;
+        private System.Windows.Forms.TextBox txt_ofsChain;
+        private System.Windows.Forms.Label label4;
     }
 }
 

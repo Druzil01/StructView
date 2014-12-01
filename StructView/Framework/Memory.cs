@@ -167,7 +167,7 @@ namespace StructView.Framework
 		{
 			return this.ReadBytes(addr, 1)[0];
 		}
-		
+
         /// <summary>
         /// 
         /// </summary>
