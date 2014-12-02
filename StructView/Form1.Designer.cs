@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "0",
             "Base",
@@ -199,7 +199,7 @@
             this.dta.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dta.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.dta.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem1});
+            listViewItem2});
             this.dta.Location = new System.Drawing.Point(0, 0);
             this.dta.Name = "dta";
             this.dta.Size = new System.Drawing.Size(511, 316);
@@ -323,7 +323,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "StructureView";
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();

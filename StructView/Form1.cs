@@ -130,7 +130,9 @@ namespace StructView
             a.Children[0].Children.Add(new cOffset("Unknown ... Path to Inventory", 0xF8, ""));
             a.Children[0].Children[0].Children.Add(new cOffset("Unknown ... Path to Inventory", 0xa50, ""));
             a.Children[0].Children[0].Children[0].Children.Add(new cOffset("Unknown ... Path to Inventory", 0x988, ""));
-            a.Children[0].Children[0].Children[0].Children[0].Children.Add(new cOffset("Inventory", 0xA44, ""));
+            a.Children[0].Children[0].Children[0].Children[0].Children.Add(new cOffset("Path to Inventory", 0x44, ""));
+            a.Children[0].Children[0].Children[0].Children[0].Children[0].Children.Add(new cOffset("Ptr to Player-Inv", 0x4, "Inventory"));
+            a.Children[0].Children[0].Children[0].Children[0].Children[0].Children[0].Children.Add(new cOffset("Inventory", 0x14, ""));
 
             a.Children[0].Children.Add (new cOffset("Unknown ... Path to Flask", 0x4c, ""));
             a.Children[0].Children[1].Children.Add(new cOffset("Unknown ... Path to Flask", 0x968, ""));
@@ -157,6 +159,7 @@ namespace StructView
             i = new cOffset("HideoutEditButton", 0x84,"Element"); a.Children.Add(i);
             i = new cOffset("HideoutStashButton", 0x88,"Element"); a.Children.Add(i);
             i = new cOffset("SkillPointAvailable", 0x8C,"Element"); a.Children.Add(i);
+            i = new cOffset("QuestInfoButton", 0x90, "Element"); a.Children.Add(i);
             i = new cOffset("ChatButton", 0x9C,"Element"); a.Children.Add(i);
             i = new cOffset("Mouseposition", 0xA0,"Element"); a.Children.Add(i);
             i = new cOffset("ActionButtons", 0xA4,"Element"); a.Children.Add(i);
@@ -245,39 +248,43 @@ namespace StructView
 
         private void tv_AfterSelect(object sender, TreeViewEventArgs e)
         {
-            cOffset o = (cOffset)e.Node.Tag;
-            txt_desc.Text = o.description;
-            txt_offs.Text = o.Offset.ToString("X8").TrimStart('0');
-            txt_adr.Text = o.Adress(mem).ToString("X8").TrimStart('0');//o.adress.ToString("X8").TrimStart('0');
-            txt_ofsChain.Text = o.getOffsChain();
+            ObjRefresh((cOffset)e.Node.Tag);
+        }
+
+        private void ObjRefresh(cOffset ofs)
+        {
+            txt_desc.Text = ofs.description;
+            txt_offs.Text = ofs.Offset.ToString("X8").TrimStart('0');
+            txt_adr.Text = ofs.Adress(mem).ToString("X8").TrimStart('0');//o.adress.ToString("X8").TrimStart('0');
+            txt_ofsChain.Text = ofs.getOffsChain();
             dta.Items.Clear();
-            if (!string.IsNullOrEmpty(o.Structure))
+            if (!string.IsNullOrEmpty(ofs.Structure))
             {
-                cStructure str = (cStructure)Project.Poe.Structs.FirstOrDefault(s => s.Name == o.Structure);
+                cStructure str = (cStructure)Project.Poe.Structs.FirstOrDefault(s => s.Name == ofs.Structure);
                 if (str != null)
                 {
                     foreach (cField f in str.Fields)
                     {
                         ListViewItem row = new ListViewItem(f.Offset.ToString("X8").TrimStart('0'));
-                        row.SubItems.Add(f.Description); 
+                        row.SubItems.Add(f.Description);
                         row.SubItems.Add(f.Type.ToString());
                         string val = "";
                         switch (f.Type)
                         {
                             case DataType.Integer:
-                                val = mem.ReadInt(o.adress + f.Offset).ToString();
+                                val = mem.ReadInt(ofs.adress + f.Offset).ToString();
                                 break;
                             case DataType.Float:
-                                val = mem.ReadFloat(o.adress + f.Offset).ToString();
+                                val = mem.ReadFloat(ofs.adress + f.Offset).ToString();
                                 break;
                             case DataType.Pointer:
-                                val = "p->"+mem.ReadInt(o.adress + f.Offset).ToString("X8");
+                                val = "p->" + mem.ReadInt(ofs.adress + f.Offset).ToString("X8");
                                 break;
                             case DataType.String:
-                                val = mem.ReadString(o.adress + f.Offset,255);
+                                val = mem.ReadString(ofs.adress + f.Offset, 255);
                                 break;
                             case DataType.Bit:
-                                val = (mem.ReadByte(o.adress + f.Offset) & 1).ToString();
+                                val = (mem.ReadByte(ofs.adress + f.Offset) & 1).ToString();
                                 break;
                         }
                         row.SubItems.Add(val);
@@ -329,14 +336,14 @@ namespace StructView
             cOffset ofs = (cOffset)tv.SelectedNode.Tag;
             ofs.description = txt_desc.Text;
             tv.SelectedNode.Text = ofs.description;
+
         }
 
         private void txt_offs_Leave(object sender, EventArgs e)
         {
             cOffset ofs = (cOffset)tv.SelectedNode.Tag;
-            //ofs.Offset = txt_offs.Text;
-            //tv.SelectedNode.Text = ofs.description;
-
+            ofs.Offset = Convert.ToInt16(txt_offs.Text);
+            ObjRefresh(ofs);
         }
     }
 }
