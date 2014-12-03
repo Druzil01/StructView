@@ -22,6 +22,11 @@ namespace StructView.Framework
 			this.modules = new Dictionary<string, int>();
 		}
 
+        public int MemorySize()
+        {
+            return this.Process.MainModule.ModuleMemorySize;
+        }
+
 		public void Dispose()
 		{
 			this.Close();

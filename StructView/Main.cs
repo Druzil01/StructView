@@ -8,9 +8,11 @@ using System.Text;
 using System.Windows.Forms;
 using System.Diagnostics;
 using StructView.Framework;
+using StructView.Data;
+
 namespace StructView
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
         private int pid;
         private Memory mem;
@@ -25,7 +27,7 @@ namespace StructView
         
         }
 
-        public Form1()
+        public Main()
         {
             InitializeComponent();
             dta.Columns.Add("Offset");
@@ -77,6 +79,63 @@ namespace StructView
             s.Fields.Add(new cField(0x20, "ListStart", DataType.Pointer));
             s.Fields.Add(new cField(0x24, "ListEnd", DataType.Pointer));
             Project.Poe.Structs.Add(s);
+
+            s = new cStructure();
+            s.Name = "Inventory-Set";
+            s.Fields.Add(new cField(0x0,   "Player Inventory", DataType.Pointer));
+            s.Fields.Add(new cField(0x10,  "Chest Item", DataType.Pointer));
+            s.Fields.Add(new cField(0x20,  "Left Weapon", DataType.Pointer));
+            s.Fields.Add(new cField(0x30,  "Right Weapon", DataType.Pointer));
+            s.Fields.Add(new cField(0x00, "PlayerInventory", DataType.Pointer));
+            s.Fields.Add(new cField(0x10, "Chest          ", DataType.Pointer));
+            s.Fields.Add(new cField(0x20, "Left Weapon    ", DataType.Pointer));
+            s.Fields.Add(new cField(0x30, "Right Weapon   ", DataType.Pointer));
+            s.Fields.Add(new cField(0x40, "Helm           ", DataType.Pointer));
+            s.Fields.Add(new cField(0x50, "Amulet         ", DataType.Pointer));
+            s.Fields.Add(new cField(0x60, "Left Ring      ", DataType.Pointer));
+            s.Fields.Add(new cField(0x70, "Right Ring     ", DataType.Pointer));
+            s.Fields.Add(new cField(0x80, "Gloves         ", DataType.Pointer));
+            s.Fields.Add(new cField(0x90, "Boots          ", DataType.Pointer));
+            s.Fields.Add(new cField(0xa0, "Belt           ", DataType.Pointer));
+            s.Fields.Add(new cField(0xb0, "Flasks         ", DataType.Pointer));
+            s.Fields.Add(new cField(0xc0, "unknown", DataType.Pointer));
+            s.Fields.Add(new cField(0xd0, "unknown", DataType.Pointer));
+            s.Fields.Add(new cField(0xe0, "Left Weapon swap", DataType.Pointer));
+            s.Fields.Add(new cField(0xf0, "Right Weapon swap", DataType.Pointer));
+            s.Fields.Add(new cField(0x100, "unknown", DataType.Pointer));
+            s.Fields.Add(new cField(0x110, "unknown", DataType.Pointer));
+            s.Fields.Add(new cField(0x120, "unknown", DataType.Pointer));
+            s.Fields.Add(new cField(0x130, "unknown", DataType.Pointer));
+            s.Fields.Add(new cField(0x140, "unknown", DataType.Pointer));
+            s.Fields.Add(new cField(0x150, "unknown", DataType.Pointer));
+            s.Fields.Add(new cField(0x160, "unknown", DataType.Pointer));
+            s.Fields.Add(new cField(0x170, "unknown", DataType.Pointer));
+            s.Fields.Add(new cField(0x180, "Stash 1", DataType.Pointer));
+            s.Fields.Add(new cField(0x190, "Stash 2", DataType.Pointer));
+            s.Fields.Add(new cField(0x1a0, "Stash 3", DataType.Pointer));
+            s.Fields.Add(new cField(0x1b0, "Stash 4", DataType.Pointer));
+            s.Fields.Add(new cField(0x1c0, "Stash 5", DataType.Pointer));
+            s.Fields.Add(new cField(0x1d0, "Stash 6", DataType.Pointer));
+            s.Fields.Add(new cField(0x1e0, "Stash 7", DataType.Pointer));
+            s.Fields.Add(new cField(0x1f0, "Stash 8", DataType.Pointer));
+            s.Fields.Add(new cField(0x200, "Stash 9", DataType.Pointer));
+            s.Fields.Add(new cField(0x210, "Stash 10", DataType.Pointer));
+            s.Fields.Add(new cField(0x220, "Stash 11", DataType.Pointer));
+            s.Fields.Add(new cField(0x230, "Stash 12", DataType.Pointer));
+            s.Fields.Add(new cField(0x240, "Stash 13", DataType.Pointer));
+            s.Fields.Add(new cField(0x250, "Stash 14", DataType.Pointer));
+            s.Fields.Add(new cField(0x260, "Stash 15", DataType.Pointer));
+            s.Fields.Add(new cField(0x270, "Stash 16", DataType.Pointer));
+            s.Fields.Add(new cField(0x280, "Stash 17", DataType.Pointer));
+            s.Fields.Add(new cField(0x290, "Stash 18", DataType.Pointer));
+            s.Fields.Add(new cField(0x2a0, "Stash 19", DataType.Pointer));
+            s.Fields.Add(new cField(0x2b0, "Stash 20", DataType.Pointer));
+            s.Fields.Add(new cField(0x2c0, "Stash 21", DataType.Pointer));
+            s.Fields.Add(new cField(0x2d0, "Stash 22", DataType.Pointer));
+            s.Fields.Add(new cField(0x2e0, "Stash 23", DataType.Pointer));
+            s.Fields.Add(new cField(0x2f0, "Stash 24", DataType.Pointer));
+            Project.Poe.Structs.Add(s);
+
 
         }
 
@@ -132,7 +191,7 @@ namespace StructView
             a.Children[0].Children[0].Children[0].Children.Add(new cOffset("Unknown ... Path to Inventory", 0x988, ""));
             a.Children[0].Children[0].Children[0].Children[0].Children.Add(new cOffset("Path to Inventory", 0x44, ""));
             a.Children[0].Children[0].Children[0].Children[0].Children[0].Children.Add(new cOffset("Ptr to Player-Inv", 0x4, "Inventory"));
-            a.Children[0].Children[0].Children[0].Children[0].Children[0].Children[0].Children.Add(new cOffset("Inventory", 0x14, ""));
+            a.Children[0].Children[0].Children[0].Children[0].Children[0].Children[0].Children.Add(new cOffset("Inventory", 0x14, "Entity"));
 
             a.Children[0].Children.Add (new cOffset("Unknown ... Path to Flask", 0x4c, ""));
             a.Children[0].Children[1].Children.Add(new cOffset("Unknown ... Path to Flask", 0x968, ""));
@@ -344,6 +403,13 @@ namespace StructView
             cOffset ofs = (cOffset)tv.SelectedNode.Tag;
             ofs.Offset = Convert.ToInt16(txt_offs.Text);
             ObjRefresh(ofs);
+        }
+
+        private void findValueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            memSearch win = new memSearch();
+            win.Mem = mem;
+            win.Show(this);
         }
     }
 }

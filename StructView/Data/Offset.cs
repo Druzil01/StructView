@@ -6,7 +6,7 @@ using System.IO;
 using System.Xml.Serialization;
 using StructView.Framework;
 
-namespace StructView
+namespace StructView.Data
 {
     public enum DataType
     {
@@ -98,11 +98,13 @@ namespace StructView
 
         public int Adress(Memory mem)
         {
-            
-            if (Parent != null)
-                return mem.ReadInt(Parent.Adress(mem) + Offset);
+            if (mem != null)
+                if (Parent != null)
+                    return mem.ReadInt(Parent.Adress(mem) + Offset);
+                else
+                    return mem.ReadInt(mem.BaseAddress + Offset);
             else
-                return mem.ReadInt(mem.BaseAddress+Offset);
+                return 0;
         }
     }
 
@@ -118,7 +120,6 @@ namespace StructView
             Structs = new List<cStructure>();
         }
     }
-
 
     public static class Project
     {
