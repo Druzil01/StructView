@@ -16,6 +16,7 @@ namespace StructView
     {
         private int pid;
         private Memory mem;
+        private int CurAdress;
 
         private void FindPoeProcess()
         {
@@ -40,6 +41,7 @@ namespace StructView
                 initializeDemoTree();
                 initializeDemoStruct();
             }
+            cmb_structure.Items.AddRange(Project.Poe.Structs.Select(s => s.Name).ToArray());
             BuildTree();
             tv.ExpandAll();
             //4,7c,9c,13c,220,f8,a50,988,a44 <<- path to inventory by Alk 
@@ -250,14 +252,10 @@ namespace StructView
             i = new cOffset("GemLvlUpPanel", 0x1Fc,"Element"); a.Children.Add(i);
             i = new cOffset("ItemOnGroundTooltip", 0x20C,"Element"); a.Children.Add(i);
 
-
-            //o.Children.Add(new cOffset("UiRoot", 0xc0c));
-            //o.Children.Add(new cOffset("UiHover", 0xc20));
-            //o.Children.Add(new cOffset("EntityLabelmap-", 0x44));
-
             o.Children.Add(new cOffset());
             a = o.Children[3];
             a.description = "UiRoot";
+            a.Structure = "Element";
             a.Offset = 0xC0C;
 
             o.Children.Add(new cOffset());
@@ -313,44 +311,11 @@ namespace StructView
         private void ObjRefresh(cOffset ofs)
         {
             txt_desc.Text = ofs.description;
-            txt_offs.Text = ofs.Offset.ToString("X8").TrimStart('0');
+            txt_offs.Text = ofs.Offset == 0 ?"0":ofs.Offset.ToString("X8").TrimStart('0');
             txt_adr.Text = ofs.Adress(mem).ToString("X8").TrimStart('0');//o.adress.ToString("X8").TrimStart('0');
             txt_ofsChain.Text = ofs.getOffsChain();
-            dta.Items.Clear();
-            if (!string.IsNullOrEmpty(ofs.Structure))
-            {
-                cStructure str = (cStructure)Project.Poe.Structs.FirstOrDefault(s => s.Name == ofs.Structure);
-                if (str != null)
-                {
-                    foreach (cField f in str.Fields)
-                    {
-                        ListViewItem row = new ListViewItem(f.Offset.ToString("X8").TrimStart('0'));
-                        row.SubItems.Add(f.Description);
-                        row.SubItems.Add(f.Type.ToString());
-                        string val = "";
-                        switch (f.Type)
-                        {
-                            case DataType.Integer:
-                                val = mem.ReadInt(ofs.adress + f.Offset).ToString();
-                                break;
-                            case DataType.Float:
-                                val = mem.ReadFloat(ofs.adress + f.Offset).ToString();
-                                break;
-                            case DataType.Pointer:
-                                val = "p->" + mem.ReadInt(ofs.adress + f.Offset).ToString("X8");
-                                break;
-                            case DataType.String:
-                                val = mem.ReadString(ofs.adress + f.Offset, 255);
-                                break;
-                            case DataType.Bit:
-                                val = (mem.ReadByte(ofs.adress + f.Offset) & 1).ToString();
-                                break;
-                        }
-                        row.SubItems.Add(val);
-                        dta.Items.Add(row);
-                    }
-                }
-            }
+            CurAdress = ofs.adress;
+            cmb_structure.Text = ofs.Structure; // change event wird jetzt ausgeführt
         }
 
         private void calcMemAdressToolStripMenuItem_Click(object sender, EventArgs e)
@@ -410,6 +375,45 @@ namespace StructView
             memSearch win = new memSearch();
             win.Mem = mem;
             win.Show(this);
+        }
+
+        private void cmb_structure_TextChanged(object sender, EventArgs e)
+        {
+            dta.Items.Clear();
+            if (!string.IsNullOrEmpty(cmb_structure.Text))
+            {
+                cStructure str = (cStructure)Project.Poe.Structs.FirstOrDefault(s => s.Name == cmb_structure.Text);
+                if (str != null)
+                {
+                    foreach (cField f in str.Fields)
+                    {
+                        ListViewItem row = new ListViewItem(f.Offset.ToString("X8").TrimStart('0'));
+                        row.SubItems.Add(f.Description);
+                        row.SubItems.Add(f.Type.ToString());
+                        string val = "";
+                        switch (f.Type)
+                        {
+                            case DataType.Integer:
+                                val = mem.ReadInt(CurAdress + f.Offset).ToString();
+                                break;
+                            case DataType.Float:
+                                val = mem.ReadFloat(CurAdress + f.Offset).ToString();
+                                break;
+                            case DataType.Pointer:
+                                val = "p->" + mem.ReadInt(CurAdress + f.Offset).ToString("X8");
+                                break;
+                            case DataType.String:
+                                val = mem.ReadString(CurAdress + f.Offset, 255);
+                                break;
+                            case DataType.Bit:
+                                val = (mem.ReadByte(CurAdress + f.Offset) & 1).ToString();
+                                break;
+                        }
+                        row.SubItems.Add(val);
+                        dta.Items.Add(row);
+                    }
+                }
+            }
         }
     }
 }

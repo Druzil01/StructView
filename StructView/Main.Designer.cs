@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "0",
             "Base",
@@ -61,6 +61,8 @@
             this.dataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calcMemAdressToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.findValueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmb_structure = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -132,9 +134,11 @@
             // 
             // DataSplit.Panel1
             // 
+            this.DataSplit.Panel1.Controls.Add(this.cmb_structure);
             this.DataSplit.Panel1.Controls.Add(this.txt_adr);
             this.DataSplit.Panel1.Controls.Add(this.label3);
             this.DataSplit.Panel1.Controls.Add(this.txt_ofsChain);
+            this.DataSplit.Panel1.Controls.Add(this.label5);
             this.DataSplit.Panel1.Controls.Add(this.label4);
             this.DataSplit.Panel1.Controls.Add(this.txt_offs);
             this.DataSplit.Panel1.Controls.Add(this.label2);
@@ -234,7 +238,7 @@
             this.dta.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dta.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable;
             this.dta.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem3});
+            listViewItem4});
             this.dta.Location = new System.Drawing.Point(0, 0);
             this.dta.Name = "dta";
             this.dta.Size = new System.Drawing.Size(513, 317);
@@ -323,6 +327,24 @@
             this.findValueToolStripMenuItem.Text = "Find Value";
             this.findValueToolStripMenuItem.Click += new System.EventHandler(this.findValueToolStripMenuItem_Click);
             // 
+            // cmb_structure
+            // 
+            this.cmb_structure.FormattingEnabled = true;
+            this.cmb_structure.Location = new System.Drawing.Point(235, 76);
+            this.cmb_structure.Name = "cmb_structure";
+            this.cmb_structure.Size = new System.Drawing.Size(187, 21);
+            this.cmb_structure.TabIndex = 2;
+            this.cmb_structure.TextChanged += new System.EventHandler(this.cmb_structure_TextChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(177, 79);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(50, 13);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Structure";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -378,6 +400,8 @@
         private System.Windows.Forms.TextBox txt_ofsChain;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ToolStripMenuItem findValueToolStripMenuItem;
+        private System.Windows.Forms.ComboBox cmb_structure;
+        private System.Windows.Forms.Label label5;
     }
 }
 
