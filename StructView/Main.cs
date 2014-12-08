@@ -56,8 +56,8 @@ namespace StructView
         {
             cStructure s = new cStructure();
             s.Name = "Element";
-            s.Fields.Add (new cField(0x86C, "x-Position",DataType.Float));
-            s.Fields.Add (new cField(0x870, "x-Position",DataType.Float));
+            s.Fields.Add (new cField(0x86C, "X-Position",DataType.Float));
+            s.Fields.Add (new cField(0x870, "Y-Position",DataType.Float));
             s.Fields.Add (new cField(0x8F8, "Widht",DataType.Float));
             s.Fields.Add (new cField(0x8FC, "Height",DataType.Float));
             s.Fields.Add (new cField(0x8a4, "isClickable -> not sure!!", DataType.Float));
@@ -186,31 +186,72 @@ namespace StructView
             a.description = "ServerData";
             a.Offset = 0x13c;
 
-            a.Children.Add (new cOffset("Unknown ... ", 0x220, ""));
+            a.Children.Add (new cOffset("UIBase", 0x220, ""));
             //4,7c,9c,13c,220,f8,a50,988,a44 <<- path to inventory by Alk 
-            a.Children[0].Children.Add(new cOffset("Unknown ... Path to Inventory", 0xF8, ""));
-            a.Children[0].Children[0].Children.Add(new cOffset("Unknown ... Path to Inventory", 0xa50, ""));
-            a.Children[0].Children[0].Children[0].Children.Add(new cOffset("Unknown ... Path to Inventory", 0x988, ""));
-            a.Children[0].Children[0].Children[0].Children[0].Children.Add(new cOffset("Path to Inventory", 0x44, ""));
-            a.Children[0].Children[0].Children[0].Children[0].Children[0].Children.Add(new cOffset("Ptr to Player-Inv", 0x4, "Inventory"));
-            a.Children[0].Children[0].Children[0].Children[0].Children[0].Children[0].Children.Add(new cOffset("Inventory", 0x14, "Entity"));
+                a.Children[0].Children.Add(new cOffset("Unknown ... Path to Inventory", 0xF8, ""));
+                a.Children[0].Children[0].Children.Add(new cOffset("Unknown ... Path to Inventory", 0xa50, ""));
+                a.Children[0].Children[0].Children[0].Children.Add(new cOffset("Unknown ... Path to Inventory", 0x988, ""));
+                a.Children[0].Children[0].Children[0].Children[0].Children.Add(new cOffset("Path to Inventory", 0x44, ""));
+                a.Children[0].Children[0].Children[0].Children[0].Children[0].Children.Add(new cOffset("Ptr to Player-Inv", 0x4, "Inventory"));
+                a.Children[0].Children[0].Children[0].Children[0].Children[0].Children[0].Children.Add(new cOffset("Inventory", 0x14, "Entity"));
 
-            a.Children[0].Children.Add (new cOffset("Unknown ... Path to Flask", 0x4c, ""));
-            a.Children[0].Children[1].Children.Add(new cOffset("Unknown ... Path to Flask", 0x968, ""));
-            a.Children[0].Children[1].Children[0].Children.Add(new cOffset("Flask-Inventory", 0x984, "Inventory"));
-            a.Children[0].Children[1].Children[0].Children[0].Children.Add(new cOffset("FlaskInventory List Start", 0x20, ""));
-            a.Children[0].Children[1].Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 1", 0x0, ""));
-            a.Children[0].Children[1].Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 2", 0x4, ""));
-            a.Children[0].Children[1].Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 3", 0x8, ""));
-            a.Children[0].Children[1].Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 4", 0xc, ""));
-            a.Children[0].Children[1].Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 5", 0x10, "")); 
+                a.Children[0].Children.Add (new cOffset("Unknown ... Path to Flask", 0x4c, ""));
+                a.Children[0].Children[1].Children.Add(new cOffset("Unknown ... Path to Flask", 0x968, ""));
+                a.Children[0].Children[1].Children[0].Children.Add(new cOffset("Flask-Inventory", 0x984, "Inventory"));
+                a.Children[0].Children[1].Children[0].Children[0].Children.Add(new cOffset("FlaskInventory List Start", 0x20, ""));
+                a.Children[0].Children[1].Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 1", 0x0, ""));
+                a.Children[0].Children[1].Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 2", 0x4, ""));
+                a.Children[0].Children[1].Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 3", 0x8, ""));
+                a.Children[0].Children[1].Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 4", 0xc, ""));
+                a.Children[0].Children[1].Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 5", 0x10, ""));
+
+                i = new cOffset("HpGlobe", 0x40, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("ManaGlobe", 0x44, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("Flasks", 0x4C, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("XpBar", 0x50, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("MenuButton", 0x54, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("ShopButton", 0x7C, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("HideoutEditButton", 0x84, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("HideoutStashButton", 0x88, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("SkillPointAvailable", 0x8C, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("QuestInfoButton", 0x90, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("ChatButton", 0x9C, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("Mouseposition", 0xA0, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("ActionButtons", 0xA4, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("SkillSelectWindow", 0xA8, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("Chat", 0xDC, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("QuestTracker", 0xEC, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("MtxInventory", 0xF0, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("MtxShop", 0xF4, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("InventoryPanel", 0xF8, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("StashPanel", 0xFc, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("SocialPanel", 0x108, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("TreePanel", 0x10c, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("CharacterPanel", 0x110, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("OptionsPanel", 0x114, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("AchievementsPanel", 0x118, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("WorldPanel", 0x11c, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("Minimap", 0x120, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("ItemsOnGroundLabels", 0x124, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("MonsterHpLabels", 0x128, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("Buffs", 0x134, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("Buffs2", 0x190, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("OpenLeftPanel", 0x158, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("OpenRightPanel", 0x15c, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("OpenNpcDialogPanel", 0x164, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("CreatureInfoPanel", 0x188, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("InstanceManagerPanel", 0x19c, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("InstanceManagerPanel2", 0x1a0, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("SwitchingZoneInfo", 0x1C8, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("GemLvlUpPanel", 0x1Fc, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("ItemOnGroundTooltip", 0x20C, "Element"); a.Children[0].Children.Add(i);
+
 
             o.Children.Add(new cOffset());
             a = o.Children[2];
             a.description = "IngameUIElements";
             a.Offset = 0x5E8;
 
-            
             i = new cOffset("HpGlobe", 0x40,"Element"); a.Children.Add(i);
             i = new cOffset("ManaGlobe", 0x44,"Element"); a.Children.Add(i);
             i = new cOffset("Flasks", 0x4C,"Element"); a.Children.Add(i);
@@ -315,6 +356,7 @@ namespace StructView
             txt_adr.Text = ofs.Adress(mem).ToString("X8").TrimStart('0');//o.adress.ToString("X8").TrimStart('0');
             txt_ofsChain.Text = ofs.getOffsChain();
             CurAdress = ofs.adress;
+            cmb_structure.Text = ""; // totaler pfusch das so zu machen aber einfach mal schnell zum erzwingen des Change Events
             cmb_structure.Text = ofs.Structure; // change event wird jetzt ausgeführt
         }
 
