@@ -40,9 +40,11 @@
             this.tvContext = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.addOffsetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.DataSplit = new System.Windows.Forms.SplitContainer();
+            this.cmb_structure = new System.Windows.Forms.ComboBox();
             this.txt_adr = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txt_ofsChain = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txt_offs = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -61,8 +63,8 @@
             this.dataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calcMemAdressToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.findValueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmb_structure = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.copyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deleteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -111,9 +113,11 @@
             // tvContext
             // 
             this.tvContext.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addOffsetToolStripMenuItem});
+            this.addOffsetToolStripMenuItem,
+            this.copyToolStripMenuItem,
+            this.deleteToolStripMenuItem});
             this.tvContext.Name = "tvContext";
-            this.tvContext.Size = new System.Drawing.Size(132, 26);
+            this.tvContext.Size = new System.Drawing.Size(153, 92);
             // 
             // addOffsetToolStripMenuItem
             // 
@@ -154,6 +158,16 @@
             this.DataSplit.SplitterDistance = 102;
             this.DataSplit.TabIndex = 0;
             // 
+            // cmb_structure
+            // 
+            this.cmb_structure.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.cmb_structure.FormattingEnabled = true;
+            this.cmb_structure.Location = new System.Drawing.Point(235, 76);
+            this.cmb_structure.Name = "cmb_structure";
+            this.cmb_structure.Size = new System.Drawing.Size(187, 21);
+            this.cmb_structure.TabIndex = 2;
+            this.cmb_structure.TextChanged += new System.EventHandler(this.cmb_structure_TextChanged);
+            // 
             // txt_adr
             // 
             this.txt_adr.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -182,6 +196,16 @@
             this.txt_ofsChain.Size = new System.Drawing.Size(271, 20);
             this.txt_ofsChain.TabIndex = 1;
             this.txt_ofsChain.Leave += new System.EventHandler(this.txt_offs_Leave);
+            // 
+            // label5
+            // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(177, 79);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(50, 13);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Structure";
             // 
             // label4
             // 
@@ -327,23 +351,19 @@
             this.findValueToolStripMenuItem.Text = "Find Value";
             this.findValueToolStripMenuItem.Click += new System.EventHandler(this.findValueToolStripMenuItem_Click);
             // 
-            // cmb_structure
+            // copyToolStripMenuItem
             // 
-            this.cmb_structure.FormattingEnabled = true;
-            this.cmb_structure.Location = new System.Drawing.Point(235, 76);
-            this.cmb_structure.Name = "cmb_structure";
-            this.cmb_structure.Size = new System.Drawing.Size(187, 21);
-            this.cmb_structure.TabIndex = 2;
-            this.cmb_structure.TextChanged += new System.EventHandler(this.cmb_structure_TextChanged);
+            this.copyToolStripMenuItem.Name = "copyToolStripMenuItem";
+            this.copyToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.copyToolStripMenuItem.Text = "Duplicate";
+            this.copyToolStripMenuItem.Click += new System.EventHandler(this.copyToolStripMenuItem_Click);
             // 
-            // label5
+            // deleteToolStripMenuItem
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(177, 79);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 13);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Structure";
+            this.deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
+            this.deleteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.deleteToolStripMenuItem.Text = "Delete";
+            this.deleteToolStripMenuItem.Click += new System.EventHandler(this.deleteToolStripMenuItem_Click);
             // 
             // Main
             // 
@@ -402,6 +422,8 @@
         private System.Windows.Forms.ToolStripMenuItem findValueToolStripMenuItem;
         private System.Windows.Forms.ComboBox cmb_structure;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ToolStripMenuItem copyToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem deleteToolStripMenuItem;
     }
 }
 

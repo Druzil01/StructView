@@ -1,0 +1,1163 @@
+<?xml version="1.0"?>
+<PoeProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Offsets>
+    <cOffset>
+      <Offset>8833876</Offset>
+      <description>Path Of Exile</description>
+      <Children>
+        <cOffset>
+          <Offset>4</Offset>
+          <description>---</description>
+          <Children>
+            <cOffset>
+              <Offset>124</Offset>
+              <description>TheGame</description>
+              <Children>
+                <cOffset>
+                  <Offset>156</Offset>
+                  <description>IngameState/Framebase</description>
+                  <Children>
+                    <cOffset>
+                      <Offset>312</Offset>
+                      <description>IngameData</description>
+                      <Children>
+                        <cOffset>
+                          <Offset>8</Offset>
+                          <description>CurrentArea</description>
+                          <Children />
+                          <Structure />
+                        </cOffset>
+                        <cOffset>
+                          <Offset>1440</Offset>
+                          <description>LocalPlayer</description>
+                          <Children />
+                          <Structure>LocalPlayer</Structure>
+                        </cOffset>
+                        <cOffset>
+                          <Offset>1472</Offset>
+                          <description>Entity-List</description>
+                          <Children />
+                          <Structure />
+                        </cOffset>
+                      </Children>
+                      <Structure>IngameData</Structure>
+                    </cOffset>
+                    <cOffset>
+                      <Offset>316</Offset>
+                      <description>ServerData</description>
+                      <Children>
+                        <cOffset>
+                          <Offset>544</Offset>
+                          <description>UIBase</description>
+                          <Children>
+                            <cOffset>
+                              <Offset>248</Offset>
+                              <description>Unknown ... Path to Inventory</description>
+                              <Children>
+                                <cOffset>
+                                  <Offset>2640</Offset>
+                                  <description>Unknown ... Path to Inventory</description>
+                                  <Children>
+                                    <cOffset>
+                                      <Offset>2440</Offset>
+                                      <description>Unknown ... Path to Inventory</description>
+                                      <Children>
+                                        <cOffset>
+                                          <Offset>68</Offset>
+                                          <description>Path to Inventory</description>
+                                          <Children>
+                                            <cOffset>
+                                              <Offset>4</Offset>
+                                              <description>Ptr to Player-Inv</description>
+                                              <Children>
+                                                <cOffset>
+                                                  <Offset>20</Offset>
+                                                  <description>Inventory</description>
+                                                  <Children />
+                                                  <Structure>Entity</Structure>
+                                                </cOffset>
+                                              </Children>
+                                              <Structure>Inventory</Structure>
+                                            </cOffset>
+                                          </Children>
+                                          <Structure />
+                                        </cOffset>
+                                      </Children>
+                                      <Structure />
+                                    </cOffset>
+                                  </Children>
+                                  <Structure />
+                                </cOffset>
+                              </Children>
+                              <Structure />
+                            </cOffset>
+                            <cOffset>
+                              <Offset>64</Offset>
+                              <description>HpGlobe</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>68</Offset>
+                              <description>ManaGlobe</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>76</Offset>
+                              <description>Flasks Bottom Left</description>
+                              <Children>
+                                <cOffset>
+                                  <Offset>2408</Offset>
+                                  <description>Unknown ... Path to Flask</description>
+                                  <Children>
+                                    <cOffset>
+                                      <Offset>2436</Offset>
+                                      <description>Flask-Inventory</description>
+                                      <Children>
+                                        <cOffset>
+                                          <Offset>32</Offset>
+                                          <description>FlaskInventory List Start</description>
+                                          <Children>
+                                            <cOffset>
+                                              <Offset>0</Offset>
+                                              <description>Flask 1</description>
+                                              <Children />
+                                              <Structure />
+                                            </cOffset>
+                                            <cOffset>
+                                              <Offset>4</Offset>
+                                              <description>Flask 2</description>
+                                              <Children />
+                                              <Structure />
+                                            </cOffset>
+                                            <cOffset>
+                                              <Offset>8</Offset>
+                                              <description>Flask 3</description>
+                                              <Children />
+                                              <Structure />
+                                            </cOffset>
+                                            <cOffset>
+                                              <Offset>12</Offset>
+                                              <description>Flask 4</description>
+                                              <Children />
+                                              <Structure />
+                                            </cOffset>
+                                            <cOffset>
+                                              <Offset>16</Offset>
+                                              <description>Flask 5</description>
+                                              <Children />
+                                              <Structure />
+                                            </cOffset>
+                                          </Children>
+                                          <Structure />
+                                        </cOffset>
+                                      </Children>
+                                      <Structure>Inventory</Structure>
+                                    </cOffset>
+                                  </Children>
+                                  <Structure />
+                                </cOffset>
+                              </Children>
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>80</Offset>
+                              <description>XpBar</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>84</Offset>
+                              <description>MenuButton</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>124</Offset>
+                              <description>ShopButton</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>132</Offset>
+                              <description>HideoutEditButton</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>136</Offset>
+                              <description>HideoutStashButton</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>140</Offset>
+                              <description>SkillPointAvailable</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>144</Offset>
+                              <description>QuestInfoButton</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>156</Offset>
+                              <description>ChatButton</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>160</Offset>
+                              <description>Mouseposition</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>164</Offset>
+                              <description>ActionButtons</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>168</Offset>
+                              <description>SkillSelectWindow</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>220</Offset>
+                              <description>Chat</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>236</Offset>
+                              <description>QuestTracker</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>240</Offset>
+                              <description>MtxInventory</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>244</Offset>
+                              <description>MtxShop</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>248</Offset>
+                              <description>InventoryPanel</description>
+                              <Children>
+                                <cOffset>
+                                  <Offset>2072</Offset>
+                                  <description>List of child-Windows</description>
+                                  <Children>
+                                    <cOffset>
+                                      <Offset>0</Offset>
+                                      <description>Child 1</description>
+                                      <Children />
+                                      <Structure>Element</Structure>
+                                    </cOffset>
+                                    <cOffset>
+                                      <Offset>4</Offset>
+                                      <description>Child 2</description>
+                                      <Children />
+                                      <Structure>Element</Structure>
+                                    </cOffset>
+                                    <cOffset>
+                                      <Offset>8</Offset>
+                                      <description>Child 3</description>
+                                      <Children />
+                                      <Structure>Element</Structure>
+                                    </cOffset>
+                                    <cOffset>
+                                      <Offset>12</Offset>
+                                      <description>Child 4</description>
+                                      <Children />
+                                      <Structure>Element</Structure>
+                                    </cOffset>
+                                    <cOffset>
+                                      <Offset>16</Offset>
+                                      <description>Child 5</description>
+                                      <Children />
+                                      <Structure>Element</Structure>
+                                    </cOffset>
+                                    <cOffset>
+                                      <Offset>20</Offset>
+                                      <description>Child 6</description>
+                                      <Children />
+                                      <Structure>Element</Structure>
+                                    </cOffset>
+                                    <cOffset>
+                                      <Offset>24</Offset>
+                                      <description>Child 7</description>
+                                      <Children />
+                                      <Structure>Element</Structure>
+                                    </cOffset>
+                                    <cOffset>
+                                      <Offset>28</Offset>
+                                      <description>Child 8</description>
+                                      <Children />
+                                      <Structure>Element</Structure>
+                                    </cOffset>
+                                    <cOffset>
+                                      <Offset>32</Offset>
+                                      <description>Child 9</description>
+                                      <Children />
+                                      <Structure>Element</Structure>
+                                    </cOffset>
+                                    <cOffset>
+                                      <Offset>36</Offset>
+                                      <description>Child 10</description>
+                                      <Children />
+                                      <Structure>Element</Structure>
+                                    </cOffset>
+                                    <cOffset>
+                                      <Offset>40</Offset>
+                                      <description>Child 11</description>
+                                      <Children />
+                                      <Structure>Element</Structure>
+                                    </cOffset>
+                                    <cOffset>
+                                      <Offset>44</Offset>
+                                      <description>Child 12</description>
+                                      <Children />
+                                      <Structure>Element</Structure>
+                                    </cOffset>
+                                    <cOffset>
+                                      <Offset>48</Offset>
+                                      <description>Child 13</description>
+                                      <Children />
+                                      <Structure>Element</Structure>
+                                    </cOffset>
+                                  </Children>
+                                  <Structure />
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>2600</Offset>
+                                  <description>Chest Item</description>
+                                  <Children>
+                                    <cOffset>
+                                      <Offset>2440</Offset>
+                                      <description>988 ??</description>
+                                      <Children />
+                                      <Structure>Inventory</Structure>
+                                    </cOffset>
+                                  </Children>
+                                  <Structure>Element</Structure>
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>2604</Offset>
+                                  <description>Left Weapon</description>
+                                  <Children />
+                                  <Structure>Element</Structure>
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>2608</Offset>
+                                  <description>Right Weapon</description>
+                                  <Children />
+                                  <Structure>Element</Structure>
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>2592</Offset>
+                                  <description>Helm</description>
+                                  <Children />
+                                  <Structure>Element</Structure>
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>2596</Offset>
+                                  <description>Amulet</description>
+                                  <Children />
+                                  <Structure>Element</Structure>
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>2620</Offset>
+                                  <description>Left ring</description>
+                                  <Children />
+                                  <Structure>Element</Structure>
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>2624</Offset>
+                                  <description>Right ring</description>
+                                  <Children />
+                                  <Structure>Element</Structure>
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>2628</Offset>
+                                  <description>Gloves</description>
+                                  <Children />
+                                  <Structure>Element</Structure>
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>2636</Offset>
+                                  <description>Boots</description>
+                                  <Children />
+                                  <Structure>Element</Structure>
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>2632</Offset>
+                                  <description>Belt</description>
+                                  <Children />
+                                  <Structure />
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>2640</Offset>
+                                  <description>Item Inventory</description>
+                                  <Children>
+                                    <cOffset>
+                                      <Offset>2440</Offset>
+                                      <description>988</description>
+                                      <Children />
+                                      <Structure />
+                                    </cOffset>
+                                  </Children>
+                                  <Structure>Element</Structure>
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>0</Offset>
+                                  <description>New Offset</description>
+                                  <Children />
+                                  <Structure />
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>0</Offset>
+                                  <description>New Offset</description>
+                                  <Children />
+                                </cOffset>
+                              </Children>
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>252</Offset>
+                              <description>StashPanel</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>264</Offset>
+                              <description>SocialPanel</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>268</Offset>
+                              <description>TreePanel</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>272</Offset>
+                              <description>CharacterPanel</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>276</Offset>
+                              <description>OptionsPanel</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>280</Offset>
+                              <description>AchievementsPanel</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>284</Offset>
+                              <description>WorldPanel</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>288</Offset>
+                              <description>Minimap</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>292</Offset>
+                              <description>ItemsOnGroundLabels</description>
+                              <Children>
+                                <cOffset>
+                                  <Offset>2148</Offset>
+                                  <description>Ui-Root Element ?</description>
+                                  <Children>
+                                    <cOffset>
+                                      <Offset>0</Offset>
+                                      <description>Root ?</description>
+                                      <Children />
+                                      <Structure>Element</Structure>
+                                    </cOffset>
+                                  </Children>
+                                  <Structure />
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>2152</Offset>
+                                  <description>Parent UI-element</description>
+                                  <Children>
+                                    <cOffset>
+                                      <Offset>0</Offset>
+                                      <description>Parent</description>
+                                      <Children />
+                                      <Structure>Element</Structure>
+                                    </cOffset>
+                                  </Children>
+                                  <Structure>Element</Structure>
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>2072</Offset>
+                                  <description>ChildList 1st Child</description>
+                                  <Children />
+                                  <Structure />
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>0</Offset>
+                                  <description>ChildList</description>
+                                  <Children />
+                                  <Structure />
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>0</Offset>
+                                  <description>New Offset</description>
+                                  <Children />
+                                </cOffset>
+                                <cOffset>
+                                  <Offset>0</Offset>
+                                  <description>New Offset</description>
+                                  <Children />
+                                </cOffset>
+                              </Children>
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>296</Offset>
+                              <description>MonsterHpLabels</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>308</Offset>
+                              <description>Buffs</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>400</Offset>
+                              <description>Buffs2</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>344</Offset>
+                              <description>OpenLeftPanel</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>348</Offset>
+                              <description>OpenRightPanel</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>356</Offset>
+                              <description>OpenNpcDialogPanel</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>392</Offset>
+                              <description>CreatureInfoPanel</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>412</Offset>
+                              <description>InstanceManagerPanel</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>416</Offset>
+                              <description>InstanceManagerPanel2</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>456</Offset>
+                              <description>SwitchingZoneInfo</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>508</Offset>
+                              <description>GemLvlUpPanel</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>524</Offset>
+                              <description>ItemOnGroundTooltip</description>
+                              <Children />
+                              <Structure />
+                            </cOffset>
+                            <cOffset>
+                              <Offset>184</Offset>
+                              <description>AsForPvp</description>
+                              <Children />
+                              <Structure>Element</Structure>
+                            </cOffset>
+                          </Children>
+                          <Structure />
+                        </cOffset>
+                        <cOffset>
+                          <Offset>11648</Offset>
+                          <description>Complete Inventory</description>
+                          <Children>
+                            <cOffset>
+                              <Offset>4</Offset>
+                              <description>Player Inventory</description>
+                              <Children>
+                                <cOffset>
+                                  <Offset>32</Offset>
+                                  <description>Ptr to Items</description>
+                                  <Children>
+                                    <cOffset>
+                                      <Offset>0</Offset>
+                                      <description>1st Item</description>
+                                      <Children />
+                                      <Structure>Entity</Structure>
+                                    </cOffset>
+                                  </Children>
+                                  <Structure />
+                                </cOffset>
+                              </Children>
+                              <Structure>Inventory</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>20</Offset>
+                              <description>Chest</description>
+                              <Children />
+                              <Structure>Inventory</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>36</Offset>
+                              <description>Left Weapon</description>
+                              <Children />
+                              <Structure>Inventory</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>52</Offset>
+                              <description>Right Weapon</description>
+                              <Children />
+                              <Structure>Inventory</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>68</Offset>
+                              <description>Helm</description>
+                              <Children />
+                              <Structure>Inventory</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>84</Offset>
+                              <description>Amulet</description>
+                              <Children />
+                              <Structure>Inventory</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>100</Offset>
+                              <description>Left Ring</description>
+                              <Children />
+                              <Structure>Inventory</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>116</Offset>
+                              <description>Right Ring</description>
+                              <Children />
+                              <Structure>Inventory</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>132</Offset>
+                              <description>Gloves</description>
+                              <Children />
+                              <Structure>Inventory</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>148</Offset>
+                              <description>Belt</description>
+                              <Children />
+                              <Structure>Inventory</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>164</Offset>
+                              <description>Boot</description>
+                              <Children />
+                              <Structure>Inventory</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>180</Offset>
+                              <description>Flask</description>
+                              <Children />
+                              <Structure>Inventory</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>228</Offset>
+                              <description>Left Weapon Swap</description>
+                              <Children />
+                              <Structure>Inventory</Structure>
+                            </cOffset>
+                            <cOffset>
+                              <Offset>244</Offset>
+                              <description>Right Weapon Swap</description>
+                              <Children />
+                              <Structure>Inventory</Structure>
+                            </cOffset>
+                          </Children>
+                          <Structure>Inventory-Set</Structure>
+                        </cOffset>
+                      </Children>
+                      <Structure />
+                    </cOffset>
+                    <cOffset>
+                      <Offset>3084</Offset>
+                      <description>UiRoot</description>
+                      <Children />
+                      <Structure />
+                    </cOffset>
+                    <cOffset>
+                      <Offset>3104</Offset>
+                      <description>UiHover-&gt; noty yet correct</description>
+                      <Children>
+                        <cOffset>
+                          <Offset>2796</Offset>
+                          <description>tooltip</description>
+                          <Children />
+                          <Structure />
+                        </cOffset>
+                        <cOffset>
+                          <Offset>2832</Offset>
+                          <description>Item</description>
+                          <Children />
+                          <Structure>Entity</Structure>
+                        </cOffset>
+                      </Children>
+                      <Structure />
+                    </cOffset>
+                    <cOffset>
+                      <Offset>68</Offset>
+                      <description>EntityLabelmap-</description>
+                      <Children>
+                        <cOffset>
+                          <Offset>2528</Offset>
+                          <description>EntityLabelmap</description>
+                          <Children />
+                        </cOffset>
+                      </Children>
+                      <Structure />
+                    </cOffset>
+                  </Children>
+                </cOffset>
+              </Children>
+            </cOffset>
+          </Children>
+        </cOffset>
+      </Children>
+      <Structure />
+    </cOffset>
+  </Offsets>
+  <Structs>
+    <cStructure>
+      <Name>Element</Name>
+      <Fields>
+        <cField>
+          <Offset>2072</Offset>
+          <Description>List of ChildWindows-Start</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>2076</Offset>
+          <Description>List of ChildWindows-Start</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>2148</Offset>
+          <Description>Root-Window</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>2152</Offset>
+          <Description>Parent Window</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>2156</Offset>
+          <Description>X-Position</Description>
+          <Type>Float</Type>
+        </cField>
+        <cField>
+          <Offset>2160</Offset>
+          <Description>Y-Position</Description>
+          <Type>Float</Type>
+        </cField>
+        <cField>
+          <Offset>2296</Offset>
+          <Description>Widht</Description>
+          <Type>Float</Type>
+        </cField>
+        <cField>
+          <Offset>2300</Offset>
+          <Description>Height</Description>
+          <Type>Float</Type>
+        </cField>
+        <cField>
+          <Offset>2212</Offset>
+          <Description>isClickable -&gt; not sure!!</Description>
+          <Type>Float</Type>
+        </cField>
+      </Fields>
+    </cStructure>
+    <cStructure>
+      <Name>Inventory</Name>
+      <Fields>
+        <cField>
+          <Offset>12</Offset>
+          <Description>Width</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>16</Offset>
+          <Description>Height</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>32</Offset>
+          <Description>ListStart</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>36</Offset>
+          <Description>ListEnd</Description>
+          <Type>Pointer</Type>
+        </cField>
+      </Fields>
+    </cStructure>
+    <cStructure>
+      <Name>Entity</Name>
+      <Fields>
+        <cField>
+          <Offset>4</Offset>
+          <Description>ComponentList-Start</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>8</Offset>
+          <Description>ComponentList-Start</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>24</Offset>
+          <Description>Id</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>16</Offset>
+          <Description>Hostile</Description>
+          <Type>Bit</Type>
+        </cField>
+        <cField>
+          <Offset>32</Offset>
+          <Description>ListStart</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>36</Offset>
+          <Description>ListEnd</Description>
+          <Type>Pointer</Type>
+        </cField>
+      </Fields>
+    </cStructure>
+    <cStructure>
+      <Name>Inventory-Set</Name>
+      <Fields>
+        <cField>
+          <Offset>0</Offset>
+          <Description>PlayerInventory</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>4</Offset>
+          <Description>Pointer to Inventory</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>16</Offset>
+          <Description>Chest          </Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>20</Offset>
+          <Description>Pointer to Chest Inventory</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>32</Offset>
+          <Description>Left Weapon    </Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>36</Offset>
+          <Description>Pointer to Left Weapon</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>48</Offset>
+          <Description>Right Weapon   </Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>52</Offset>
+          <Description>Pointer to Right Weapon</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>64</Offset>
+          <Description>Helm           </Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>68</Offset>
+          <Description>Pointer to Helm</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>80</Offset>
+          <Description>Amulet         </Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>84</Offset>
+          <Description>Pointer to Amu</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>96</Offset>
+          <Description>Left Ring      </Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>112</Offset>
+          <Description>Right Ring     </Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>128</Offset>
+          <Description>Gloves         </Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>144</Offset>
+          <Description>Boots          </Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>160</Offset>
+          <Description>Belt           </Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>176</Offset>
+          <Description>Flasks         </Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>192</Offset>
+          <Description>unknown</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>208</Offset>
+          <Description>unknown</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>224</Offset>
+          <Description>Left Weapon swap</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>240</Offset>
+          <Description>Right Weapon swap</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>256</Offset>
+          <Description>unknown</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>272</Offset>
+          <Description>unknown</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>288</Offset>
+          <Description>unknown</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>304</Offset>
+          <Description>unknown</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>320</Offset>
+          <Description>unknown</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>336</Offset>
+          <Description>unknown</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>352</Offset>
+          <Description>unknown</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>368</Offset>
+          <Description>unknown</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>384</Offset>
+          <Description>Stash 1</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>400</Offset>
+          <Description>Stash 2</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>416</Offset>
+          <Description>Stash 3</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>432</Offset>
+          <Description>Stash 4</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>448</Offset>
+          <Description>Stash 5</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>464</Offset>
+          <Description>Stash 6</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>480</Offset>
+          <Description>Stash 7</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>496</Offset>
+          <Description>Stash 8</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>512</Offset>
+          <Description>Stash 9</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>528</Offset>
+          <Description>Stash 10</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>544</Offset>
+          <Description>Stash 11</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>560</Offset>
+          <Description>Stash 12</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>576</Offset>
+          <Description>Stash 13</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>592</Offset>
+          <Description>Stash 14</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>608</Offset>
+          <Description>Stash 15</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>624</Offset>
+          <Description>Stash 16</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>640</Offset>
+          <Description>Stash 17</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>656</Offset>
+          <Description>Stash 18</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>672</Offset>
+          <Description>Stash 19</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>688</Offset>
+          <Description>Stash 20</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>704</Offset>
+          <Description>Stash 21</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>720</Offset>
+          <Description>Stash 22</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>736</Offset>
+          <Description>Stash 23</Description>
+          <Type>Pointer</Type>
+        </cField>
+        <cField>
+          <Offset>752</Offset>
+          <Description>Stash 24</Description>
+          <Type>Pointer</Type>
+        </cField>
+      </Fields>
+    </cStructure>
+  </Structs>
+</PoeProject>

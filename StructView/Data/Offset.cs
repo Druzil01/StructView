@@ -58,8 +58,6 @@ namespace StructView.Data
     [Serializable]
     public class cOffset
     {
-        [XmlIgnore] // Adress is calculated. no need to save
-        public int adress { get; set; }
         public int Offset { get; set; }
         [XmlIgnore]
         public cOffset Parent { get; set; }
@@ -69,7 +67,6 @@ namespace StructView.Data
 
         public cOffset()
         {
-            adress = 0;
             Offset = 0;
             description = "";
             Parent = null;
@@ -86,6 +83,17 @@ namespace StructView.Data
             : this(desc,offs)
         {
             Structure = structure;
+        }
+
+        public cOffset(cOffset Source)
+        {
+            Offset = Source.Offset;
+            Parent = Source.Parent;
+            Structure = Source.Structure;
+            description = "copy from" + Source.description;
+            Children = new List<cOffset>();
+            foreach (cOffset c in Source.Children)
+                Children.Add( new cOffset(c));
         }
 
         public string getOffsChain()
@@ -105,6 +113,11 @@ namespace StructView.Data
                     return mem.ReadInt(mem.BaseAddress + Offset);
             else
                 return 0;
+        }
+
+        public override string ToString()
+        {
+            return Offset.ToString("X4") + " - >" + description;
         }
     }
 
@@ -136,10 +149,20 @@ namespace StructView.Data
                 PoeProject p = (PoeProject)ser.Deserialize(sr);
                 Poe = p;
                 sr.Close();
+                CalcParents(null, Poe.Offsets);
             }
             else
             {
                 Poe = new PoeProject();
+            }
+        }
+
+        private static void CalcParents(cOffset Parent, List<cOffset> Childs)
+        {
+            foreach (cOffset o in Childs)
+            {
+                o.Parent = Parent;
+                CalcParents(o, o.Children);
             }
         }
 

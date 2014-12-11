@@ -46,16 +46,16 @@ namespace StructView
             tv.ExpandAll();
             //4,7c,9c,13c,220,f8,a50,988,a44 <<- path to inventory by Alk 
             FindPoeProcess();
-            if (pid != 0) // Process found : calc Adresses
-            {
-                CalcAdress(mem.BaseAddress, Project.Poe.Offsets,null);
-            }
         }
 
         private void initializeDemoStruct()
         {
             cStructure s = new cStructure();
             s.Name = "Element";
+            s.Fields.Add(new cField(0x818, "List of ChildWindows-Start", DataType.Pointer));
+            s.Fields.Add(new cField(0x81c, "List of ChildWindows-Start", DataType.Pointer));
+            s.Fields.Add(new cField(0x864, "Root-Window", DataType.Pointer));
+            s.Fields.Add(new cField(0x868, "Parent Window", DataType.Pointer));
             s.Fields.Add (new cField(0x86C, "X-Position",DataType.Float));
             s.Fields.Add (new cField(0x870, "Y-Position",DataType.Float));
             s.Fields.Add (new cField(0x8F8, "Widht",DataType.Float));
@@ -207,7 +207,15 @@ namespace StructView
 
                 i = new cOffset("HpGlobe", 0x40, "Element"); a.Children[0].Children.Add(i);
                 i = new cOffset("ManaGlobe", 0x44, "Element"); a.Children[0].Children.Add(i);
-                i = new cOffset("Flasks", 0x4C, "Element"); a.Children[0].Children.Add(i);
+                i = new cOffset("Flasks Bottom Left", 0x4C, "Element"); a.Children[0].Children.Add(i);
+                i.Children.Add (new cOffset("Unknown ... Path to Flask", 0x968, ""));
+                i.Children[0].Children.Add(new cOffset("Flask-Inventory", 0x984, "Inventory"));
+                i.Children[0].Children[0].Children.Add(new cOffset("FlaskInventory List Start", 0x20, ""));
+                i.Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 1", 0x0, ""));
+                i.Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 2", 0x4, ""));
+                i.Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 3", 0x8, ""));
+                i.Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 4", 0xc, ""));
+                i.Children[0].Children[0].Children[0].Children.Add(new cOffset("Flask 5", 0x10, ""));
                 i = new cOffset("XpBar", 0x50, "Element"); a.Children[0].Children.Add(i);
                 i = new cOffset("MenuButton", 0x54, "Element"); a.Children[0].Children.Add(i);
                 i = new cOffset("ShopButton", 0x7C, "Element"); a.Children[0].Children.Add(i);
@@ -224,6 +232,21 @@ namespace StructView
                 i = new cOffset("MtxInventory", 0xF0, "Element"); a.Children[0].Children.Add(i);
                 i = new cOffset("MtxShop", 0xF4, "Element"); a.Children[0].Children.Add(i);
                 i = new cOffset("InventoryPanel", 0xF8, "Element"); a.Children[0].Children.Add(i);
+                i.Children.Add(new cOffset("List of child-Windows", 0x818, ""));
+                i.Children[0].Children.Add(new cOffset("Child 1", 0x00, "Element"));
+                i.Children[0].Children.Add(new cOffset("Child 2", 0x04, "Element"));
+                i.Children[0].Children.Add(new cOffset("Child 3", 0x08, "Element"));
+                i.Children[0].Children.Add(new cOffset("Child 4", 0x0c, "Element"));
+                i.Children[0].Children.Add(new cOffset("Child 5", 0x10, "Element"));
+                i.Children[0].Children.Add(new cOffset("Child 6", 0x14, "Element"));
+                i.Children[0].Children.Add(new cOffset("Child 7", 0x18, "Element"));
+                i.Children[0].Children.Add(new cOffset("Child 8", 0x1c, "Element"));
+                i.Children[0].Children.Add(new cOffset("Child 9", 0x20, "Element"));
+                i.Children[0].Children.Add(new cOffset("Child 10", 0x24, "Element"));
+                i.Children[0].Children.Add(new cOffset("Child 11", 0x28, "Element"));
+                i.Children[0].Children.Add(new cOffset("Child 12", 0x2c, "Element"));
+                i.Children[0].Children.Add(new cOffset("Child 13", 0x30, "Element"));
+
                 i = new cOffset("StashPanel", 0xFc, "Element"); a.Children[0].Children.Add(i);
                 i = new cOffset("SocialPanel", 0x108, "Element"); a.Children[0].Children.Add(i);
                 i = new cOffset("TreePanel", 0x10c, "Element"); a.Children[0].Children.Add(i);
@@ -353,10 +376,9 @@ namespace StructView
         {
             txt_desc.Text = ofs.description;
             txt_offs.Text = ofs.Offset == 0 ?"0":ofs.Offset.ToString("X8").TrimStart('0');
+            CurAdress = ofs.Adress(mem);
             txt_adr.Text = ofs.Adress(mem).ToString("X8").TrimStart('0');//o.adress.ToString("X8").TrimStart('0');
             txt_ofsChain.Text = ofs.getOffsChain();
-            CurAdress = ofs.adress;
-            cmb_structure.Text = ""; // totaler pfusch das so zu machen aber einfach mal schnell zum erzwingen des Change Events
             cmb_structure.Text = ofs.Structure; // change event wird jetzt ausgeführt
         }
 
@@ -368,21 +390,12 @@ namespace StructView
             }
         }
 
-        private void CalcAdress(int adress, List<cOffset> Base,cOffset parent)
-        {
-            foreach (cOffset c in Base)
-            {
-                c.adress = mem.ReadInt(adress + c.Offset);
-                c.Parent = parent;
-                CalcAdress(c.adress, c.Children,c);
-            }
-        }
-
         private void addOffsetToolStripMenuItem_Click(object sender, EventArgs e)
         {
             cOffset offs = (cOffset)tv.SelectedNode.Tag;
             cOffset newOffs = new cOffset("New Offset",0);
             offs.Children.Add(newOffs);
+            newOffs.Parent = offs;
             TreeNode n = new TreeNode(newOffs.description);
             n.Tag = newOffs;
             tv.SelectedNode.Nodes.Add(n);
@@ -408,7 +421,7 @@ namespace StructView
         private void txt_offs_Leave(object sender, EventArgs e)
         {
             cOffset ofs = (cOffset)tv.SelectedNode.Tag;
-            ofs.Offset = Convert.ToInt16(txt_offs.Text);
+            ofs.Offset = Convert.ToInt16(txt_offs.Text,16);
             ObjRefresh(ofs);
         }
 
@@ -421,6 +434,8 @@ namespace StructView
 
         private void cmb_structure_TextChanged(object sender, EventArgs e)
         {
+            cOffset ofs = (cOffset)tv.SelectedNode.Tag;
+            ofs.Structure = cmb_structure.Text;
             dta.Items.Clear();
             if (!string.IsNullOrEmpty(cmb_structure.Text))
             {
@@ -456,6 +471,27 @@ namespace StructView
                     }
                 }
             }
+        }
+
+        private void copyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            cOffset offs = (cOffset)tv.SelectedNode.Tag;
+            cOffset newOffs = new cOffset(offs);
+            offs.Parent.Children.Add(newOffs);
+            TreeNode n = new TreeNode(newOffs.description);
+            n.Tag = newOffs;
+            tv.SelectedNode.Parent.Nodes.Add(n); 
+            tv.SelectedNode.Expand();
+            tv.SelectedNode = n;
+        }
+
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            cOffset offs = (cOffset)tv.SelectedNode.Tag;
+            offs.Parent.Children.RemoveAt(offs.Parent.Children.IndexOf(offs));
+            TreeNode n = tv.SelectedNode.PrevNode;
+            tv.SelectedNode.Parent.Nodes.Remove(tv.SelectedNode);
+            tv.SelectedNode = n;
         }
     }
 }
