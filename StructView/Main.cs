@@ -370,6 +370,7 @@ namespace StructView
         private void tv_AfterSelect(object sender, TreeViewEventArgs e)
         {
             ObjRefresh((cOffset)e.Node.Tag);
+            ShowStructure((cOffset)e.Node.Tag);
         }
 
         private void ObjRefresh(cOffset ofs)
@@ -421,7 +422,7 @@ namespace StructView
         private void txt_offs_Leave(object sender, EventArgs e)
         {
             cOffset ofs = (cOffset)tv.SelectedNode.Tag;
-            ofs.Offset = Convert.ToInt16(txt_offs.Text,16);
+            ofs.Offset = Convert.ToInt32(txt_offs.Text,16);
             ObjRefresh(ofs);
         }
 
@@ -432,9 +433,8 @@ namespace StructView
             win.Show(this);
         }
 
-        private void cmb_structure_TextChanged(object sender, EventArgs e)
+        private void ShowStructure(cOffset ofs)
         {
-            cOffset ofs = (cOffset)tv.SelectedNode.Tag;
             ofs.Structure = cmb_structure.Text;
             dta.Items.Clear();
             if (!string.IsNullOrEmpty(cmb_structure.Text))
@@ -471,6 +471,13 @@ namespace StructView
                     }
                 }
             }
+        }
+
+
+        private void cmb_structure_TextChanged(object sender, EventArgs e)
+        {
+            cOffset ofs = (cOffset)tv.SelectedNode.Tag;
+            ShowStructure(ofs);
         }
 
         private void copyToolStripMenuItem_Click(object sender, EventArgs e)

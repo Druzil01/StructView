@@ -2,7 +2,7 @@
 <PoeProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Offsets>
     <cOffset>
-      <Offset>8833876</Offset>
+      <Offset>8984668</Offset>
       <description>Path Of Exile</description>
       <Children>
         <cOffset>
@@ -25,7 +25,7 @@
                           <Offset>8</Offset>
                           <description>CurrentArea</description>
                           <Children />
-                          <Structure />
+                          <Structure>Area</Structure>
                         </cOffset>
                         <cOffset>
                           <Offset>1440</Offset>
@@ -766,8 +766,10 @@
                   </Children>
                 </cOffset>
               </Children>
+              <Structure />
             </cOffset>
           </Children>
+          <Structure />
         </cOffset>
       </Children>
       <Structure />
@@ -1156,6 +1158,46 @@
           <Offset>752</Offset>
           <Description>Stash 24</Description>
           <Type>Pointer</Type>
+        </cField>
+      </Fields>
+    </cStructure>
+    <cStructure>
+      <Name>Area</Name>
+      <Fields>
+        <cField>
+          <Offset>0</Offset>
+          <Description>Adr to Rawname</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>4</Offset>
+          <Description>Adr To Name</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>8</Offset>
+          <Description>Act</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>12</Offset>
+          <Description>IsTown</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>13</Offset>
+          <Description>HasWaypoint</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>18</Offset>
+          <Description>Adr to Art</Description>
+          <Type>Integer</Type>
+        </cField>
+        <cField>
+          <Offset>22</Offset>
+          <Description>Level</Description>
+          <Type>Integer</Type>
         </cField>
       </Fields>
     </cStructure>
