@@ -22,15 +22,28 @@ namespace StructView.Data
     [Serializable]
     public class cField
     {
+        /// <summary>
+        /// Offset of Field
+        /// </summary>
         public int Offset { get; set; }
+        /// <summary>
+        /// Simple Desription
+        /// </summary>
         public string Description { get; set; }
+        /// <summary>
+        /// Datatype to display
+        /// </summary>
         public DataType Type { get; set; }
-
+        /// <summary>
+        /// if its a Pointer : Name of the Structur it points to
+        /// </summary>
+        public string Structure { get; set; } 
         public cField()
         {
             Offset = 0;
             Description = "";
             Type = DataType.None;
+            Structure = null;
         }
 
         public cField(int offs, string desc, DataType type)

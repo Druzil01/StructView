@@ -158,6 +158,12 @@
                                   </Children>
                                   <Structure />
                                 </cOffset>
+                                <cOffset>
+                                  <Offset>2072</Offset>
+                                  <description>1st Child</description>
+                                  <Children />
+                                  <Structure />
+                                </cOffset>
                               </Children>
                               <Structure>Element</Structure>
                             </cOffset>
@@ -483,56 +489,40 @@
                               <Structure>Element</Structure>
                             </cOffset>
                             <cOffset>
-                              <Offset>292</Offset>
+                              <Offset>304</Offset>
                               <description>ItemsOnGroundLabels</description>
                               <Children>
                                 <cOffset>
-                                  <Offset>2148</Offset>
-                                  <description>Ui-Root Element ?</description>
+                                  <Offset>2476</Offset>
+                                  <description>Point to 1st Ground item</description>
                                   <Children>
                                     <cOffset>
                                       <Offset>0</Offset>
-                                      <description>Root ?</description>
-                                      <Children />
-                                      <Structure>Element</Structure>
+                                      <description>1st Ground item</description>
+                                      <Children>
+                                        <cOffset>
+                                          <Offset>16</Offset>
+                                          <description>Entity</description>
+                                          <Children />
+                                          <Structure>Entity</Structure>
+                                        </cOffset>
+                                        <cOffset>
+                                          <Offset>8</Offset>
+                                          <description>Label </description>
+                                          <Children />
+                                          <Structure>Element</Structure>
+                                        </cOffset>
+                                        <cOffset>
+                                          <Offset>2476</Offset>
+                                          <description>2nd Ground Label</description>
+                                          <Children />
+                                          <Structure />
+                                        </cOffset>
+                                      </Children>
+                                      <Structure />
                                     </cOffset>
                                   </Children>
                                   <Structure />
-                                </cOffset>
-                                <cOffset>
-                                  <Offset>2152</Offset>
-                                  <description>Parent UI-element</description>
-                                  <Children>
-                                    <cOffset>
-                                      <Offset>0</Offset>
-                                      <description>Parent</description>
-                                      <Children />
-                                      <Structure>Element</Structure>
-                                    </cOffset>
-                                  </Children>
-                                  <Structure>Element</Structure>
-                                </cOffset>
-                                <cOffset>
-                                  <Offset>2072</Offset>
-                                  <description>ChildList 1st Child</description>
-                                  <Children />
-                                  <Structure />
-                                </cOffset>
-                                <cOffset>
-                                  <Offset>0</Offset>
-                                  <description>ChildList</description>
-                                  <Children />
-                                  <Structure />
-                                </cOffset>
-                                <cOffset>
-                                  <Offset>0</Offset>
-                                  <description>New Offset</description>
-                                  <Children />
-                                </cOffset>
-                                <cOffset>
-                                  <Offset>0</Offset>
-                                  <description>New Offset</description>
-                                  <Children />
                                 </cOffset>
                               </Children>
                               <Structure>Element</Structure>
@@ -823,6 +813,12 @@
           <Offset>2212</Offset>
           <Description>isClickable -&gt; not sure!!</Description>
           <Type>Float</Type>
+        </cField>
+        <cField>
+          <Offset>2476</Offset>
+          <Description>NextChild</Description>
+          <Type>Pointer</Type>
+          <Structure>Element</Structure>
         </cField>
       </Fields>
     </cStructure>

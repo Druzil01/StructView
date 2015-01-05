@@ -35,7 +35,11 @@ namespace StructView
             dta.Columns.Add("Descrition");
             dta.Columns.Add("Datatype");
             dta.Columns.Add("Current Value");
+#if DEBUG
+            Project.Load(Environment.CurrentDirectory + "..\\..\\..\\..\\Release\\Poe.xml");
+#else
             Project.Load(Environment.CurrentDirectory + "\\Poe.xml");
+#endif
             if (Project.Poe.Offsets.Count == 0) 
             {
                 initializeDemoTree();
@@ -344,7 +348,12 @@ namespace StructView
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
+#if DEBUG
+            Project.Save(Environment.CurrentDirectory + "..\\..\\..\\..\\Release\\Poe.xml");
+#else
             Project.Save(Environment.CurrentDirectory + "\\Poe.xml");
+#endif
+
         }
 
         private void AddOffsToTv(TreeNodeCollection tn, List<cOffset> oList)
