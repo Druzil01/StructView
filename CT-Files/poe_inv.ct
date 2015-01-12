@@ -5,7 +5,7 @@
       <ID>3233</ID>
       <Description>"Inventory Array   [ Base ]"</Description>
       <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-      <LastState Value="57D7B5E0" Activated="0" RealAddress="57D7C87C"/>
+      <LastState Value="??" Activated="0" RealAddress="00000000"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>80000008</Color>
       <VariableType>4 Bytes</VariableType>
@@ -42,7 +42,7 @@
                 <CheatEntry>
                   <ID>2666</ID>
                   <Description>"AdressToCurrentItem"</Description>
-                  <LastState Value="60B1AFA8" Activated="0" RealAddress="57D7B5F4"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -72,8 +72,7 @@
                     <CheatEntry>
                       <ID>3352</ID>
                       <Description>"mods Component ListStart"</Description>
-                      <LastState Value="806F4A50" Activated="0" RealAddress="806F4394"/>
-                      <ShowAsHex>1</ShowAsHex>
+                      <LastState Value="??" Activated="0" RealAddress="00000000"/>
                       <Color>80000008</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>bptr_aob</Address>
@@ -96,8 +95,7 @@
                     <CheatEntry>
                       <ID>3351</ID>
                       <Description>"mods Component ListEnd"</Description>
-                      <LastState Value="806F4A68" Activated="0" RealAddress="806F4398"/>
-                      <ShowAsHex>1</ShowAsHex>
+                      <LastState Value="??" Activated="0" RealAddress="00000000"/>
                       <Color>80000008</Color>
                       <VariableType>4 Bytes</VariableType>
                       <Address>bptr_aob</Address>
@@ -120,7 +118,7 @@
                     <CheatEntry>
                       <ID>3992</ID>
                       <Description>"Component Lookup"</Description>
-                      <LastState Value="0E39F2D0" Activated="0" RealAddress="0E3B8C18"/>
+                      <LastState Value="??" Activated="0" RealAddress="00000000"/>
                       <ShowAsHex>1</ShowAsHex>
                       <Color>80000008</Color>
                       <VariableType>4 Bytes</VariableType>
@@ -146,7 +144,7 @@
                     <CheatEntry>
                       <ID>3993</ID>
                       <Description>"Component Name Index 0"</Description>
-                      <LastState Activated="0" RealAddress="01AE1FDC"/>
+                      <LastState Activated="0" RealAddress="00000000"/>
                       <Color>80000008</Color>
                       <VariableType>String</VariableType>
                       <Length>256</Length>
@@ -176,7 +174,7 @@
                     <CheatEntry>
                       <ID>3994</ID>
                       <Description>"Component Name Index 1"</Description>
-                      <LastState Activated="0" RealAddress="01AE1704"/>
+                      <LastState Activated="0" RealAddress="00000000"/>
                       <Color>80000008</Color>
                       <VariableType>String</VariableType>
                       <Length>256</Length>
@@ -207,7 +205,7 @@
                     <CheatEntry>
                       <ID>3995</ID>
                       <Description>"Component Name Index 2"</Description>
-                      <LastState Activated="0" RealAddress="01AE15F8"/>
+                      <LastState Activated="0" RealAddress="00000000"/>
                       <Color>80000008</Color>
                       <VariableType>String</VariableType>
                       <Length>256</Length>
@@ -239,7 +237,7 @@
                     <CheatEntry>
                       <ID>3996</ID>
                       <Description>"Component Name Index 3"</Description>
-                      <LastState Activated="0" RealAddress="01AE1710"/>
+                      <LastState Activated="0" RealAddress="00000000"/>
                       <Color>80000008</Color>
                       <VariableType>String</VariableType>
                       <Length>256</Length>
@@ -306,7 +304,7 @@
                     <CheatEntry>
                       <ID>3998</ID>
                       <Description>"Component Name Index 5"</Description>
-                      <LastState Activated="0" RealAddress="01AC05BC"/>
+                      <LastState Activated="0" RealAddress="00000000"/>
                       <Color>80000008</Color>
                       <VariableType>String</VariableType>
                       <Length>256</Length>
@@ -341,7 +339,7 @@
                     <CheatEntry>
                       <ID>3999</ID>
                       <Description>"Component Name Index 6"</Description>
-                      <LastState Activated="0" RealAddress="01ABDF6C"/>
+                      <LastState Activated="0" RealAddress="00000000"/>
                       <Color>80000008</Color>
                       <VariableType>String</VariableType>
                       <Length>256</Length>
@@ -377,7 +375,7 @@
                     <CheatEntry>
                       <ID>4000</ID>
                       <Description>"Component Name Index 7"</Description>
-                      <LastState Activated="0" RealAddress="01AE1FDC"/>
+                      <LastState Activated="0" RealAddress="00000000"/>
                       <Color>80000008</Color>
                       <VariableType>String</VariableType>
                       <Length>256</Length>
@@ -411,12 +409,129 @@
                         <Offset>4</Offset>
                       </Offsets>
                     </CheatEntry>
+                    <CheatEntry>
+                      <ID>4001</ID>
+                      <Description>"Component Name Index 8"</Description>
+                      <LastState Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>String</VariableType>
+                      <Length>256</Length>
+                      <Unicode>0</Unicode>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>8</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>58</Offset>
+                        <Offset>0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>4002</ID>
+                      <Description>"Component Name Index 9"</Description>
+                      <LastState Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>String</VariableType>
+                      <Length>256</Length>
+                      <Unicode>0</Unicode>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>8</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>58</Offset>
+                        <Offset>0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>4003</ID>
+                      <Description>"Component Name Index 10"</Description>
+                      <LastState Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>String</VariableType>
+                      <Length>256</Length>
+                      <Unicode>0</Unicode>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>8</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>58</Offset>
+                        <Offset>0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>2661</ID>
                   <Description>"IsLastAtAddress [ 0=false | 1=true ]"</Description>
-                  <LastState Value="0" Activated="0" RealAddress="57D7B5F9"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -437,7 +552,7 @@
                 <CheatEntry>
                   <ID>3344</ID>
                   <Description>"ItemRarity (0 = White, 1 = magic, 2 = Rare, 3 = Uniq)"</Description>
-                  <LastState Value="0" Activated="0" RealAddress="838F3DB4"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -465,7 +580,7 @@
                 <CheatEntry>
                   <ID>3333</ID>
                   <Description>"BaseItemType"</Description>
-                  <LastState Activated="0" RealAddress="0E377B20"/>
+                  <LastState Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>String</VariableType>
@@ -496,7 +611,7 @@
                 <CheatEntry>
                   <ID>2676</ID>
                   <Description>"Metadata"</Description>
-                  <LastState Activated="0" RealAddress="0E3B8AB0"/>
+                  <LastState Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>String</VariableType>
@@ -525,7 +640,7 @@
                 <CheatEntry>
                   <ID>2670</ID>
                   <Description>"InventoryPosition [ Top X ]"</Description>
-                  <LastState Value="0" Activated="0" RealAddress="60B1AFB8"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -547,7 +662,7 @@
                 <CheatEntry>
                   <ID>2674</ID>
                   <Description>"InventoryPosition [ Top Y ]"</Description>
-                  <LastState Value="3" Activated="0" RealAddress="60B1AFBC"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -569,7 +684,7 @@
                 <CheatEntry>
                   <ID>2673</ID>
                   <Description>"InventoryPosition [ Bottom X ]"</Description>
-                  <LastState Value="1" Activated="0" RealAddress="60B1AFC0"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -591,7 +706,7 @@
                 <CheatEntry>
                   <ID>2672</ID>
                   <Description>"InventoryPosition [ Bottom Y ]"</Description>
-                  <LastState Value="4" Activated="0" RealAddress="60B1AFC4"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -613,7 +728,7 @@
                 <CheatEntry>
                   <ID>2669</ID>
                   <Description>"ChildAdress1 [ 0x0 ]"</Description>
-                  <LastState Value="57D809F0" Activated="0" RealAddress="57D7B5E0"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -635,7 +750,7 @@
                 <CheatEntry>
                   <ID>2678</ID>
                   <Description>"ChildAdress2 [ 0x8 ]"</Description>
-                  <LastState Value="57D88010" Activated="0" RealAddress="57D7B5E8"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -677,7 +792,7 @@
                 <CheatEntry>
                   <ID>2681</ID>
                   <Description>"AdressToCurrentItem"</Description>
-                  <LastState Value="60B0EA98" Activated="0" RealAddress="57D80A04"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -700,7 +815,7 @@
                 <CheatEntry>
                   <ID>2677</ID>
                   <Description>"IsLastAtAddress [ 0=false | 1=true ]"</Description>
-                  <LastState Value="0" Activated="0" RealAddress="57D80A09"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -722,7 +837,7 @@
                 <CheatEntry>
                   <ID>3343</ID>
                   <Description>"ItemRarity (0 = White, 1 = magic, 2 = Rare, 3 = Uniq)"</Description>
-                  <LastState Value="0" Activated="0" RealAddress="838F6AB4"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -751,7 +866,7 @@
                 <CheatEntry>
                   <ID>3332</ID>
                   <Description>"BaseItemType"</Description>
-                  <LastState Activated="0" RealAddress="0DF3FD10"/>
+                  <LastState Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>String</VariableType>
@@ -783,7 +898,7 @@
                 <CheatEntry>
                   <ID>2683</ID>
                   <Description>"Metadata"</Description>
-                  <LastState Activated="0" RealAddress="0DF961F8"/>
+                  <LastState Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>String</VariableType>
@@ -813,7 +928,7 @@
                 <CheatEntry>
                   <ID>2696</ID>
                   <Description>"InventoryPosition [ Top X ]"</Description>
-                  <LastState Value="4" Activated="0" RealAddress="60B0EAB0"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -836,7 +951,7 @@
                 <CheatEntry>
                   <ID>2697</ID>
                   <Description>"InventoryPosition [ Top Y ]"</Description>
-                  <LastState Value="0" Activated="0" RealAddress="60B0EAAC"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -859,7 +974,7 @@
                 <CheatEntry>
                   <ID>2698</ID>
                   <Description>"InventoryPosition [ Bottom X ]"</Description>
-                  <LastState Value="2" Activated="0" RealAddress="60B0EAA8"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -882,7 +997,7 @@
                 <CheatEntry>
                   <ID>2699</ID>
                   <Description>"InventoryPosition [ Bottom Y ]"</Description>
-                  <LastState Value="4" Activated="0" RealAddress="60B0EAB4"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -905,7 +1020,7 @@
                 <CheatEntry>
                   <ID>2700</ID>
                   <Description>"ChildAdress1 [ 0x0 ]"</Description>
-                  <LastState Value="57D80A90" Activated="0" RealAddress="57D809F0"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -928,7 +1043,7 @@
                 <CheatEntry>
                   <ID>2701</ID>
                   <Description>"ChildAdress2 [ 0x8 ]"</Description>
-                  <LastState Value="57D7C878" Activated="0" RealAddress="57D809F8"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -961,7 +1076,7 @@
                 <CheatEntry>
                   <ID>2682</ID>
                   <Description>"AdressToCurrentItem"</Description>
-                  <LastState Value="60B12F98" Activated="0" RealAddress="57D88024"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -984,7 +1099,7 @@
                 <CheatEntry>
                   <ID>2687</ID>
                   <Description>"IsLastAtAddress [ 0=false | 1=true ]"</Description>
-                  <LastState Value="0" Activated="0" RealAddress="57D88029"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1006,7 +1121,7 @@
                 <CheatEntry>
                   <ID>3342</ID>
                   <Description>"ItemRarity (0 = White, 1 = magic, 2 = Rare, 3 = Uniq)"</Description>
-                  <LastState Value="2203666352" Activated="0" RealAddress="83590BB4"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1035,7 +1150,7 @@
                 <CheatEntry>
                   <ID>3331</ID>
                   <Description>"BaseItemType"</Description>
-                  <LastState Activated="0" RealAddress="0C684498"/>
+                  <LastState Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>String</VariableType>
@@ -1067,7 +1182,7 @@
                 <CheatEntry>
                   <ID>2684</ID>
                   <Description>"Metadata"</Description>
-                  <LastState Activated="0" RealAddress="0C646B48"/>
+                  <LastState Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>String</VariableType>
@@ -1097,7 +1212,7 @@
                 <CheatEntry>
                   <ID>2694</ID>
                   <Description>"InventoryPosition [ Top X ]"</Description>
-                  <LastState Value="12" Activated="0" RealAddress="60B12FB0"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1120,7 +1235,7 @@
                 <CheatEntry>
                   <ID>2695</ID>
                   <Description>"InventoryPosition [ Top Y ]"</Description>
-                  <LastState Value="5" Activated="0" RealAddress="60B12FB4"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1143,7 +1258,7 @@
                 <CheatEntry>
                   <ID>2692</ID>
                   <Description>"InventoryPosition [ Bottom X ]"</Description>
-                  <LastState Value="11" Activated="0" RealAddress="60B12FA8"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1166,7 +1281,7 @@
                 <CheatEntry>
                   <ID>2693</ID>
                   <Description>"InventoryPosition [ Bottom Y ]"</Description>
-                  <LastState Value="4" Activated="0" RealAddress="60B12FAC"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1189,7 +1304,7 @@
                 <CheatEntry>
                   <ID>2702</ID>
                   <Description>"ChildAdress1 [ 0x0 ]"</Description>
-                  <LastState Value="57D85860" Activated="0" RealAddress="57D88010"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -1212,7 +1327,7 @@
                 <CheatEntry>
                   <ID>2703</ID>
                   <Description>"ChildAdress2 [ 0x8 ]"</Description>
-                  <LastState Value="57D87D68" Activated="0" RealAddress="57D88018"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -1255,7 +1370,7 @@
                 <CheatEntry>
                   <ID>2746</ID>
                   <Description>"AdressToCurrentItem"</Description>
-                  <LastState Value="60B0E4F8" Activated="0" RealAddress="57D80AA4"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -1279,7 +1394,7 @@
                 <CheatEntry>
                   <ID>2707</ID>
                   <Description>"IsLastAtAddress [ 0=false | 1=true ]"</Description>
-                  <LastState Value="134217728" Activated="0" RealAddress="57D80AA9"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1302,7 +1417,7 @@
                 <CheatEntry>
                   <ID>3339</ID>
                   <Description>"ItemRarity (0 = White, 1 = magic, 2 = Rare, 3 = Uniq)"</Description>
-                  <LastState Value="2" Activated="0" RealAddress="838F74B4"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1332,7 +1447,7 @@
                 <CheatEntry>
                   <ID>3334</ID>
                   <Description>"BaseItemType"</Description>
-                  <LastState Activated="0" RealAddress="0DF40CB0"/>
+                  <LastState Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>String</VariableType>
@@ -1365,7 +1480,7 @@
                 <CheatEntry>
                   <ID>2747</ID>
                   <Description>"Metadata"</Description>
-                  <LastState Activated="0" RealAddress="0E022AC0"/>
+                  <LastState Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>String</VariableType>
@@ -1396,7 +1511,7 @@
                 <CheatEntry>
                   <ID>2711</ID>
                   <Description>"InventoryPosition [ Top X ]"</Description>
-                  <LastState Value="10" Activated="0" RealAddress="60B0E510"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1420,7 +1535,7 @@
                 <CheatEntry>
                   <ID>2712</ID>
                   <Description>"InventoryPosition [ Top Y ]"</Description>
-                  <LastState Value="1" Activated="0" RealAddress="60B0E514"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1444,7 +1559,7 @@
                 <CheatEntry>
                   <ID>2709</ID>
                   <Description>"InventoryPosition [ Bottom X ]"</Description>
-                  <LastState Value="9" Activated="0" RealAddress="60B0E508"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1468,7 +1583,7 @@
                 <CheatEntry>
                   <ID>2710</ID>
                   <Description>"InventoryPosition [ Bottom Y ]"</Description>
-                  <LastState Value="0" Activated="0" RealAddress="60B0E50C"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1492,7 +1607,7 @@
                 <CheatEntry>
                   <ID>2713</ID>
                   <Description>"ChildAdress1 [ 0x0 ]"</Description>
-                  <LastState Value="57D7C878" Activated="0" RealAddress="57D80A90"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -1516,7 +1631,7 @@
                 <CheatEntry>
                   <ID>2714</ID>
                   <Description>"ChildAdress2 [ 0x8 ]"</Description>
-                  <LastState Value="57D7C878" Activated="0" RealAddress="57D80A98"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -1550,7 +1665,7 @@
                 <CheatEntry>
                   <ID>2748</ID>
                   <Description>"AdressToCurrentItem"</Description>
-                  <LastState Value="00750074" Activated="0" RealAddress="57D7C88C"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -1574,7 +1689,7 @@
                 <CheatEntry>
                   <ID>2727</ID>
                   <Description>"IsLastAtAddress [ 0=false | 1=true ]"</Description>
-                  <LastState Value="25857" Activated="0" RealAddress="57D7C891"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1691,7 +1806,7 @@
                 <CheatEntry>
                   <ID>2731</ID>
                   <Description>"InventoryPosition [ Top X ]"</Description>
-                  <LastState Value="0" Activated="0" RealAddress="0075008C"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1715,7 +1830,7 @@
                 <CheatEntry>
                   <ID>2732</ID>
                   <Description>"InventoryPosition [ Top Y ]"</Description>
-                  <LastState Value="0" Activated="0" RealAddress="00750090"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1739,7 +1854,7 @@
                 <CheatEntry>
                   <ID>2729</ID>
                   <Description>"InventoryPosition [ Bottom X ]"</Description>
-                  <LastState Value="0" Activated="0" RealAddress="00750084"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1763,7 +1878,7 @@
                 <CheatEntry>
                   <ID>2730</ID>
                   <Description>"InventoryPosition [ Bottom Y ]"</Description>
-                  <LastState Value="0" Activated="0" RealAddress="00750088"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1787,7 +1902,7 @@
                 <CheatEntry>
                   <ID>2733</ID>
                   <Description>"ChildAdress1 [ 0x0 ]"</Description>
-                  <LastState Value="57D80A90" Activated="0" RealAddress="57D7C878"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -1811,7 +1926,7 @@
                 <CheatEntry>
                   <ID>2734</ID>
                   <Description>"ChildAdress2 [ 0x8 ]"</Description>
-                  <LastState Value="57D7A5A0" Activated="0" RealAddress="57D7C880"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -1845,7 +1960,7 @@
                 <CheatEntry>
                   <ID>2749</ID>
                   <Description>"AdressToCurrentItem"</Description>
-                  <LastState Value="60B0CED8" Activated="0" RealAddress="57D85874"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -1869,7 +1984,7 @@
                 <CheatEntry>
                   <ID>2750</ID>
                   <Description>"IsLastAtAddress [ 0=false | 1=true ]"</Description>
-                  <LastState Value="268435456" Activated="0" RealAddress="57D85879"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1892,7 +2007,7 @@
                 <CheatEntry>
                   <ID>3337</ID>
                   <Description>"ItemRarity (0 = White, 1 = magic, 2 = Rare, 3 = Uniq)"</Description>
-                  <LastState Value="0" Activated="0" RealAddress="838F1EB4"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -1922,7 +2037,7 @@
                 <CheatEntry>
                   <ID>2751</ID>
                   <Description>"Metadata"</Description>
-                  <LastState Activated="0" RealAddress="0E3B94D0"/>
+                  <LastState Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>String</VariableType>
@@ -1953,7 +2068,7 @@
                 <CheatEntry>
                   <ID>3336</ID>
                   <Description>"BaseItemType"</Description>
-                  <LastState Activated="0" RealAddress="0E377C38"/>
+                  <LastState Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>String</VariableType>
@@ -1986,7 +2101,7 @@
                 <CheatEntry>
                   <ID>2754</ID>
                   <Description>"InventoryPosition [ Top X ]"</Description>
-                  <LastState Value="1" Activated="0" RealAddress="60B0CEF0"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -2010,7 +2125,7 @@
                 <CheatEntry>
                   <ID>2755</ID>
                   <Description>"InventoryPosition [ Top Y ]"</Description>
-                  <LastState Value="5" Activated="0" RealAddress="60B0CEF4"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -2034,7 +2149,7 @@
                 <CheatEntry>
                   <ID>2752</ID>
                   <Description>"InventoryPosition [ Bottom X ]"</Description>
-                  <LastState Value="0" Activated="0" RealAddress="60B0CEE8"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -2058,7 +2173,7 @@
                 <CheatEntry>
                   <ID>2753</ID>
                   <Description>"InventoryPosition [ Bottom Y ]"</Description>
-                  <LastState Value="4" Activated="0" RealAddress="60B0CEEC"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -2082,7 +2197,7 @@
                 <CheatEntry>
                   <ID>2756</ID>
                   <Description>"ChildAdress1 [ 0x0 ]"</Description>
-                  <LastState Value="57D7C878" Activated="0" RealAddress="57D85860"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -2106,7 +2221,7 @@
                 <CheatEntry>
                   <ID>2757</ID>
                   <Description>"ChildAdress2 [ 0x8 ]"</Description>
-                  <LastState Value="57D7C878" Activated="0" RealAddress="57D85868"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -2140,7 +2255,7 @@
                 <CheatEntry>
                   <ID>2758</ID>
                   <Description>"AdressToCurrentItem"</Description>
-                  <LastState Value="604BCC48" Activated="0" RealAddress="57D87D7C"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -2164,7 +2279,7 @@
                 <CheatEntry>
                   <ID>2759</ID>
                   <Description>"IsLastAtAddress [ 0=false | 1=true ]"</Description>
-                  <LastState Value="1702888960" Activated="0" RealAddress="57D87D81"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -2187,7 +2302,7 @@
                 <CheatEntry>
                   <ID>3341</ID>
                   <Description>"ItemRarity (0 = White, 1 = magic, 2 = Rare, 3 = Uniq)"</Description>
-                  <LastState Value="1102570206" Activated="0" RealAddress="83543784"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -2217,7 +2332,7 @@
                 <CheatEntry>
                   <ID>3340</ID>
                   <Description>"BaseItemType"</Description>
-                  <LastState Activated="0" RealAddress="0C4BCD98"/>
+                  <LastState Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>String</VariableType>
@@ -2250,7 +2365,7 @@
                 <CheatEntry>
                   <ID>2760</ID>
                   <Description>"Metadata"</Description>
-                  <LastState Activated="0" RealAddress="0C647160"/>
+                  <LastState Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>String</VariableType>
@@ -2281,7 +2396,7 @@
                 <CheatEntry>
                   <ID>2761</ID>
                   <Description>"InventoryPosition [ Top X ]"</Description>
-                  <LastState Value="2" Activated="0" RealAddress="604BCC60"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -2305,7 +2420,7 @@
                 <CheatEntry>
                   <ID>2762</ID>
                   <Description>"InventoryPosition [ Top Y ]"</Description>
-                  <LastState Value="4" Activated="0" RealAddress="604BCC64"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -2329,7 +2444,7 @@
                 <CheatEntry>
                   <ID>2763</ID>
                   <Description>"InventoryPosition [ Bottom X ]"</Description>
-                  <LastState Value="1" Activated="0" RealAddress="604BCC58"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -2353,7 +2468,7 @@
                 <CheatEntry>
                   <ID>2764</ID>
                   <Description>"InventoryPosition [ Bottom Y ]"</Description>
-                  <LastState Value="3" Activated="0" RealAddress="604BCC5C"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
                   <Address>bptr_aob</Address>
@@ -2377,7 +2492,7 @@
                 <CheatEntry>
                   <ID>2765</ID>
                   <Description>"ChildAdress1 [ 0x0 ]"</Description>
-                  <LastState Value="57D862B0" Activated="0" RealAddress="57D87D68"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -2401,7 +2516,7 @@
                 <CheatEntry>
                   <ID>2766</ID>
                   <Description>"ChildAdress2 [ 0x8 ]"</Description>
-                  <LastState Value="57D7A5A0" Activated="0" RealAddress="57D87D70"/>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
                   <ShowAsHex>1</ShowAsHex>
                   <Color>80000008</Color>
                   <VariableType>4 Bytes</VariableType>
@@ -2432,7 +2547,7 @@
       <ID>3354</ID>
       <Description>"ItemUnderCursor"</Description>
       <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-      <LastState Value="604E98AC" Activated="0" RealAddress="604E98A8"/>
+      <LastState Value="??" Activated="0" RealAddress="00000000"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>80000008</Color>
       <VariableType>4 Bytes</VariableType>
@@ -2449,7 +2564,7 @@
           <ID>3445</ID>
           <Description>"ComponentList Start"</Description>
           <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-          <LastState Value="00090008" Activated="0" RealAddress="604E98B0"/>
+          <LastState Value="??" Activated="0" RealAddress="00000000"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>80000008</Color>
           <VariableType>4 Bytes</VariableType>
@@ -2467,7 +2582,7 @@
           <ID>3536</ID>
           <Description>"ComponentList End"</Description>
           <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-          <LastState Value="000B000A" Activated="0" RealAddress="604E98B4"/>
+          <LastState Value="??" Activated="0" RealAddress="00000000"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>80000008</Color>
           <VariableType>4 Bytes</VariableType>
@@ -2485,7 +2600,7 @@
           <ID>3627</ID>
           <Description>"ItemId"</Description>
           <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
-          <LastState Value="00130012" Activated="0" RealAddress="604E98C4"/>
+          <LastState Value="??" Activated="0" RealAddress="00000000"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>80000008</Color>
           <VariableType>4 Bytes</VariableType>
