@@ -1,0 +1,3076 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="18">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>3233</ID>
+      <Description>"Inventory Array   [ Base ]"</Description>
+      <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>bptr_aob</Address>
+      <Offsets>
+        <Offset>4</Offset>
+        <Offset>44</Offset>
+        <Offset>988</Offset>
+        <Offset>A50</Offset>
+        <Offset>100</Offset>
+        <Offset>220</Offset>
+        <Offset>13C</Offset>
+        <Offset>9C</Offset>
+        <Offset>7C</Offset>
+        <Offset>4</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>2679</ID>
+          <Description>"STEP 1"</Description>
+          <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2745</ID>
+              <Description>"Start ItemList"</Description>
+              <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+              <LastState Value="" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2666</ID>
+                  <Description>"AdressToCurrentItem"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3353</ID>
+                  <Description>"ModsComponent"</Description>
+                  <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+                  <LastState Value="" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>3352</ID>
+                      <Description>"mods Component ListStart"</Description>
+                      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>4</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>3351</ID>
+                      <Description>"mods Component ListEnd"</Description>
+                      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>8</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>3992</ID>
+                      <Description>"Component Lookup"</Description>
+                      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                      <ShowAsHex>1</ShowAsHex>
+                      <Color>80000008</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>58</Offset>
+                        <Offset>0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>3993</ID>
+                      <Description>"Component Name Index 0"</Description>
+                      <LastState Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>String</VariableType>
+                      <Length>256</Length>
+                      <Unicode>0</Unicode>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>8</Offset>
+                        <Offset>0</Offset>
+                        <Offset>58</Offset>
+                        <Offset>0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>3994</ID>
+                      <Description>"Component Name Index 1"</Description>
+                      <LastState Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>String</VariableType>
+                      <Length>256</Length>
+                      <Unicode>0</Unicode>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>8</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>58</Offset>
+                        <Offset>0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>3995</ID>
+                      <Description>"Component Name Index 2"</Description>
+                      <LastState Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>String</VariableType>
+                      <Length>256</Length>
+                      <Unicode>0</Unicode>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>8</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>58</Offset>
+                        <Offset>0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>3996</ID>
+                      <Description>"Component Name Index 3"</Description>
+                      <LastState Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>String</VariableType>
+                      <Length>256</Length>
+                      <Unicode>0</Unicode>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>8</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>58</Offset>
+                        <Offset>0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>3997</ID>
+                      <Description>"Component Name Index 4"</Description>
+                      <LastState Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>String</VariableType>
+                      <Length>256</Length>
+                      <Unicode>0</Unicode>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>8</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>58</Offset>
+                        <Offset>0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>3998</ID>
+                      <Description>"Component Name Index 5"</Description>
+                      <LastState Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>String</VariableType>
+                      <Length>256</Length>
+                      <Unicode>0</Unicode>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>8</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>58</Offset>
+                        <Offset>0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>3999</ID>
+                      <Description>"Component Name Index 6"</Description>
+                      <LastState Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>String</VariableType>
+                      <Length>256</Length>
+                      <Unicode>0</Unicode>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>8</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>58</Offset>
+                        <Offset>0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>4000</ID>
+                      <Description>"Component Name Index 7"</Description>
+                      <LastState Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>String</VariableType>
+                      <Length>256</Length>
+                      <Unicode>0</Unicode>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>8</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>58</Offset>
+                        <Offset>0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>4001</ID>
+                      <Description>"Component Name Index 8"</Description>
+                      <LastState Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>String</VariableType>
+                      <Length>256</Length>
+                      <Unicode>0</Unicode>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>8</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>58</Offset>
+                        <Offset>0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>4002</ID>
+                      <Description>"Component Name Index 9"</Description>
+                      <LastState Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>String</VariableType>
+                      <Length>256</Length>
+                      <Unicode>0</Unicode>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>8</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>58</Offset>
+                        <Offset>0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>4003</ID>
+                      <Description>"Component Name Index 10"</Description>
+                      <LastState Activated="0" RealAddress="00000000"/>
+                      <Color>80000008</Color>
+                      <VariableType>String</VariableType>
+                      <Length>256</Length>
+                      <Unicode>0</Unicode>
+                      <ZeroTerminate>1</ZeroTerminate>
+                      <Address>bptr_aob</Address>
+                      <Offsets>
+                        <Offset>0</Offset>
+                        <Offset>8</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>0</Offset>
+                        <Offset>58</Offset>
+                        <Offset>0</Offset>
+                        <Offset>C</Offset>
+                        <Offset>14</Offset>
+                        <Offset>4</Offset>
+                        <Offset>44</Offset>
+                        <Offset>988</Offset>
+                        <Offset>A50</Offset>
+                        <Offset>100</Offset>
+                        <Offset>220</Offset>
+                        <Offset>13C</Offset>
+                        <Offset>9C</Offset>
+                        <Offset>7C</Offset>
+                        <Offset>4</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2661</ID>
+                  <Description>"IsLastAtAddress [ 0=false | 1=true ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>19</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3344</ID>
+                  <Description>"ItemRarity (0 = White, 1 = magic, 2 = Rare, 3 = Uniq)"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>4C</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>4</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3333</ID>
+                  <Description>"BaseItemType"</Description>
+                  <LastState Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>String</VariableType>
+                  <Length>103</Length>
+                  <Unicode>1</Unicode>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>10</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2676</ID>
+                  <Description>"Metadata"</Description>
+                  <LastState Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>String</VariableType>
+                  <Length>255</Length>
+                  <Unicode>1</Unicode>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2670</ID>
+                  <Description>"InventoryPosition [ Top X ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>10</Offset>
+                    <Offset>14</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2674</ID>
+                  <Description>"InventoryPosition [ Top Y ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                    <Offset>14</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2673</ID>
+                  <Description>"InventoryPosition [ Bottom X ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>18</Offset>
+                    <Offset>14</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2672</ID>
+                  <Description>"InventoryPosition [ Bottom Y ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>1C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2669</ID>
+                  <Description>"ChildAdress1 [ 0x0 ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2678</ID>
+                  <Description>"ChildAdress2 [ 0x8 ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2680</ID>
+          <Description>"STEP 2"</Description>
+          <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2685</ID>
+              <Description>"Child 0"</Description>
+              <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+              <LastState Value="" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2681</ID>
+                  <Description>"AdressToCurrentItem"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2677</ID>
+                  <Description>"IsLastAtAddress [ 0=false | 1=true ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>19</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3343</ID>
+                  <Description>"ItemRarity (0 = White, 1 = magic, 2 = Rare, 3 = Uniq)"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>4C</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>4</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3332</ID>
+                  <Description>"BaseItemType"</Description>
+                  <LastState Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>String</VariableType>
+                  <Length>103</Length>
+                  <Unicode>1</Unicode>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>10</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2683</ID>
+                  <Description>"Metadata"</Description>
+                  <LastState Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>String</VariableType>
+                  <Length>255</Length>
+                  <Unicode>1</Unicode>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2696</ID>
+                  <Description>"InventoryPosition [ Top X ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>18</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2697</ID>
+                  <Description>"InventoryPosition [ Top Y ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2698</ID>
+                  <Description>"InventoryPosition [ Bottom X ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>10</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2699</ID>
+                  <Description>"InventoryPosition [ Bottom Y ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>1C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2700</ID>
+                  <Description>"ChildAdress1 [ 0x0 ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2701</ID>
+                  <Description>"ChildAdress2 [ 0x8 ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2686</ID>
+              <Description>"Child 8"</Description>
+              <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+              <LastState Value="" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2682</ID>
+                  <Description>"AdressToCurrentItem"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2687</ID>
+                  <Description>"IsLastAtAddress [ 0=false | 1=true ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>19</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3342</ID>
+                  <Description>"ItemRarity (0 = White, 1 = magic, 2 = Rare, 3 = Uniq)"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>4C</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>4</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3331</ID>
+                  <Description>"BaseItemType"</Description>
+                  <LastState Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>String</VariableType>
+                  <Length>103</Length>
+                  <Unicode>1</Unicode>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>10</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2684</ID>
+                  <Description>"Metadata"</Description>
+                  <LastState Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>String</VariableType>
+                  <Length>255</Length>
+                  <Unicode>1</Unicode>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2694</ID>
+                  <Description>"InventoryPosition [ Top X ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>18</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2695</ID>
+                  <Description>"InventoryPosition [ Top Y ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>1C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2692</ID>
+                  <Description>"InventoryPosition [ Bottom X ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>10</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2693</ID>
+                  <Description>"InventoryPosition [ Bottom Y ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2702</ID>
+                  <Description>"ChildAdress1 [ 0x0 ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2703</ID>
+                  <Description>"ChildAdress2 [ 0x8 ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>8</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>2704</ID>
+          <Description>"STEP 3"</Description>
+          <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>2705</ID>
+              <Description>"Child 0-0"</Description>
+              <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+              <LastState Value="" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2746</ID>
+                  <Description>"AdressToCurrentItem"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2707</ID>
+                  <Description>"IsLastAtAddress [ 0=false | 1=true ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>19</Offset>
+                    <Offset>0</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3339</ID>
+                  <Description>"ItemRarity (0 = White, 1 = magic, 2 = Rare, 3 = Uniq)"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>4C</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>4</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3334</ID>
+                  <Description>"BaseItemType"</Description>
+                  <LastState Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>String</VariableType>
+                  <Length>103</Length>
+                  <Unicode>1</Unicode>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>10</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2747</ID>
+                  <Description>"Metadata"</Description>
+                  <LastState Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>String</VariableType>
+                  <Length>255</Length>
+                  <Unicode>1</Unicode>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2711</ID>
+                  <Description>"InventoryPosition [ Top X ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>18</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2712</ID>
+                  <Description>"InventoryPosition [ Top Y ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>1C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2709</ID>
+                  <Description>"InventoryPosition [ Bottom X ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>10</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2710</ID>
+                  <Description>"InventoryPosition [ Bottom Y ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2713</ID>
+                  <Description>"ChildAdress1 [ 0x0 ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>0</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2714</ID>
+                  <Description>"ChildAdress2 [ 0x8 ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2725</ID>
+              <Description>"Child 0-8"</Description>
+              <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+              <LastState Value="" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2748</ID>
+                  <Description>"AdressToCurrentItem"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2727</ID>
+                  <Description>"IsLastAtAddress [ 0=false | 1=true ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>19</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3338</ID>
+                  <Description>"ItemRarity (0 = White, 1 = magic, 2 = Rare, 3 = Uniq)"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>4C</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>4</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3335</ID>
+                  <Description>"BaseItemType"</Description>
+                  <LastState Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>String</VariableType>
+                  <Length>103</Length>
+                  <Unicode>1</Unicode>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>10</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2728</ID>
+                  <Description>"Metadata"</Description>
+                  <LastState Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>String</VariableType>
+                  <Length>255</Length>
+                  <Unicode>1</Unicode>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2731</ID>
+                  <Description>"InventoryPosition [ Top X ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>18</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2732</ID>
+                  <Description>"InventoryPosition [ Top Y ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>1C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2729</ID>
+                  <Description>"InventoryPosition [ Bottom X ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>10</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2730</ID>
+                  <Description>"InventoryPosition [ Bottom Y ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2733</ID>
+                  <Description>"ChildAdress1 [ 0x0 ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2734</ID>
+                  <Description>"ChildAdress2 [ 0x8 ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>8</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2715</ID>
+              <Description>"Child 8-0"</Description>
+              <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+              <LastState Value="" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2749</ID>
+                  <Description>"AdressToCurrentItem"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2750</ID>
+                  <Description>"IsLastAtAddress [ 0=false | 1=true ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>19</Offset>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3337</ID>
+                  <Description>"ItemRarity (0 = White, 1 = magic, 2 = Rare, 3 = Uniq)"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>4C</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>4</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2751</ID>
+                  <Description>"Metadata"</Description>
+                  <LastState Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>String</VariableType>
+                  <Length>255</Length>
+                  <Unicode>1</Unicode>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3336</ID>
+                  <Description>"BaseItemType"</Description>
+                  <LastState Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>String</VariableType>
+                  <Length>103</Length>
+                  <Unicode>1</Unicode>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>10</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2754</ID>
+                  <Description>"InventoryPosition [ Top X ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>18</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2755</ID>
+                  <Description>"InventoryPosition [ Top Y ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>1C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2752</ID>
+                  <Description>"InventoryPosition [ Bottom X ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>10</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2753</ID>
+                  <Description>"InventoryPosition [ Bottom Y ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                    <Offset>14</Offset>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2756</ID>
+                  <Description>"ChildAdress1 [ 0x0 ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2757</ID>
+                  <Description>"ChildAdress2 [ 0x8 ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>2735</ID>
+              <Description>"Child 8-8"</Description>
+              <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+              <LastState Value="" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>2758</ID>
+                  <Description>"AdressToCurrentItem"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2759</ID>
+                  <Description>"IsLastAtAddress [ 0=false | 1=true ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>19</Offset>
+                    <Offset>8</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3341</ID>
+                  <Description>"ItemRarity (0 = White, 1 = magic, 2 = Rare, 3 = Uniq)"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>4C</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>4</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>3340</ID>
+                  <Description>"BaseItemType"</Description>
+                  <LastState Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>String</VariableType>
+                  <Length>103</Length>
+                  <Unicode>1</Unicode>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>10</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>4</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2760</ID>
+                  <Description>"Metadata"</Description>
+                  <LastState Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>String</VariableType>
+                  <Length>255</Length>
+                  <Unicode>1</Unicode>
+                  <ZeroTerminate>1</ZeroTerminate>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>0</Offset>
+                    <Offset>C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2761</ID>
+                  <Description>"InventoryPosition [ Top X ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>18</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2762</ID>
+                  <Description>"InventoryPosition [ Top Y ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>1C</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2763</ID>
+                  <Description>"InventoryPosition [ Bottom X ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>10</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2764</ID>
+                  <Description>"InventoryPosition [ Bottom Y ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>14</Offset>
+                    <Offset>14</Offset>
+                    <Offset>8</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2765</ID>
+                  <Description>"ChildAdress1 [ 0x0 ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>0</Offset>
+                    <Offset>8</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2766</ID>
+                  <Description>"ChildAdress2 [ 0x8 ]"</Description>
+                  <LastState Value="??" Activated="0" RealAddress="00000000"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>bptr_aob</Address>
+                  <Offsets>
+                    <Offset>8</Offset>
+                    <Offset>8</Offset>
+                    <Offset>8</Offset>
+                    <Offset>4</Offset>
+                    <Offset>44</Offset>
+                    <Offset>988</Offset>
+                    <Offset>A50</Offset>
+                    <Offset>100</Offset>
+                    <Offset>220</Offset>
+                    <Offset>13C</Offset>
+                    <Offset>9C</Offset>
+                    <Offset>7C</Offset>
+                    <Offset>4</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>3354</ID>
+      <Description>"ItemUnderCursor"</Description>
+      <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="??" Activated="0" RealAddress="00000000"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>bptr_aob</Address>
+      <Offsets>
+        <Offset>B10</Offset>
+        <Offset>C20</Offset>
+        <Offset>9C</Offset>
+        <Offset>7C</Offset>
+        <Offset>4</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>3445</ID>
+          <Description>"ComponentList Start"</Description>
+          <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="??" Activated="0" RealAddress="00000000"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>bptr_aob</Address>
+          <Offsets>
+            <Offset>4</Offset>
+            <Offset>B10</Offset>
+            <Offset>C20</Offset>
+            <Offset>9C</Offset>
+            <Offset>7C</Offset>
+            <Offset>4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3536</ID>
+          <Description>"ComponentList End"</Description>
+          <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="??" Activated="0" RealAddress="00000000"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>bptr_aob</Address>
+          <Offsets>
+            <Offset>8</Offset>
+            <Offset>B10</Offset>
+            <Offset>C20</Offset>
+            <Offset>9C</Offset>
+            <Offset>7C</Offset>
+            <Offset>4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3627</ID>
+          <Description>"ItemId"</Description>
+          <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="??" Activated="0" RealAddress="00000000"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>bptr_aob</Address>
+          <Offsets>
+            <Offset>18</Offset>
+            <Offset>B10</Offset>
+            <Offset>C20</Offset>
+            <Offset>9C</Offset>
+            <Offset>7C</Offset>
+            <Offset>4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3718</ID>
+          <Description>"ComponentLookup"</Description>
+          <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="??" Activated="0" RealAddress="00000000"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>bptr_aob</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>58</Offset>
+            <Offset>0</Offset>
+            <Offset>B10</Offset>
+            <Offset>C20</Offset>
+            <Offset>9C</Offset>
+            <Offset>7C</Offset>
+            <Offset>4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3810</ID>
+          <Description>"Component-Name 1"</Description>
+          <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Activated="0" RealAddress="00000000"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>String</VariableType>
+          <Length>256</Length>
+          <Unicode>0</Unicode>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>bptr_aob</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>8</Offset>
+            <Offset>0</Offset>
+            <Offset>58</Offset>
+            <Offset>0</Offset>
+            <Offset>B10</Offset>
+            <Offset>C20</Offset>
+            <Offset>9C</Offset>
+            <Offset>7C</Offset>
+            <Offset>4</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>3719</ID>
+          <Description>"ComponentLookup-Next Component"</Description>
+          <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+          <LastState Value="??" Activated="0" RealAddress="00000000"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>bptr_aob</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>0</Offset>
+            <Offset>58</Offset>
+            <Offset>0</Offset>
+            <Offset>B10</Offset>
+            <Offset>C20</Offset>
+            <Offset>9C</Offset>
+            <Offset>7C</Offset>
+            <Offset>4</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>3901</ID>
+              <Description>"Component-Name  2"</Description>
+              <Options moHideChildren="1" moBindActivation="1" moManualExpandCollapse="1" moAllowManualCollapseAndExpand="1"/>
+              <LastState Activated="0" RealAddress="00000000"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>String</VariableType>
+              <Length>256</Length>
+              <Unicode>0</Unicode>
+              <ZeroTerminate>1</ZeroTerminate>
+              <Address>bptr_aob</Address>
+              <Offsets>
+                <Offset>0</Offset>
+                <Offset>8</Offset>
+                <Offset>0</Offset>
+                <Offset>0</Offset>
+                <Offset>58</Offset>
+                <Offset>0</Offset>
+                <Offset>B10</Offset>
+                <Offset>C20</Offset>
+                <Offset>9C</Offset>
+                <Offset>7C</Offset>
+                <Offset>4</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols>
+    <SymbolEntry>
+      <Name>bugfix</Name>
+      <Address>015B5E82</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>baseMgrPlusModulesteam</Name>
+      <Address>003E1A86</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>baseMgrPlusModule</Name>
+      <Address>01476966</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>zoom1</Name>
+      <Address>012EB7F6</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>zoom2</Name>
+      <Address>015B1430</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>zoom3</Name>
+      <Address>015B1841</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>baseChat</Name>
+      <Address>02A2FC18</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>testaddy</Name>
+      <Address>61998648</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>CIngameStateTest</Name>
+      <Address>0155E486</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>CIngameStateTest4</Name>
+      <Address>01B4C22C</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>mist</Name>
+      <Address>00FF5DD4</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>bptr_aobsteam</Name>
+      <Address>003E1A86</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>light1</Name>
+      <Address>01A913EC</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>light2</Name>
+      <Address>01B203A8</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>mist2</Name>
+      <Address>0183D6D8</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>mist3</Name>
+      <Address>0183D6E0</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>lowlife</Name>
+      <Address>01627E27</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>mapHack1</Name>
+      <Address>01815FC7</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>mapHack2</Name>
+      <Address>01815FD6</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>mapHack3</Name>
+      <Address>01815FE2</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>mapHack4</Name>
+      <Address>01815FEE</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>emitterControl</Name>
+      <Address>01826230</Address>
+    </SymbolEntry>
+    <SymbolEntry>
+      <Name>bptr_aob</Name>
+      <Address>1BB185C</Address>
+    </SymbolEntry>
+  </UserdefinedSymbols>
+  <LuaScript>prodConfigLoaderAob="6A FF 68 ?? ?? ?? ?? 50 64 ?? ?? ?? ?? ?? ?? A1 ?? ?? ?? ?? 81 EC ?? ?? ?? ?? 53 55 33 DB 56 57 3B C3"
+prodConfigBptrOffset=0x10
+mPageFlags="+X-W-C"
+
+openProcess("PathOfExile.exe")
+
+function onOpenProcess(processid)
+
+  reinitializeSymbolhandler()
+
+  modulebase=getAddress("PathOfExile.exe")
+
+  pcl=AOBScan(prodConfigLoaderAob,mPageFlags)
+
+  if strings_getCount(pcl)==1 then
+     pclOff=tonumber("0x"..strings_getString(pcl,0))
+     bptr=readInteger(pclOff+prodConfigBptrOffset)
+     showMessage([[
+     AoB Scan for base pointer retrieves the following address:
+
+     base pointer offset: 0x]]..string.format("%x",bptr-modulebase)
+     )
+     unregisterSymbol("bptr_aob")
+     registerSymbol("bptr_aob",bptr)
+  elseif strings_getCount(pcl)==0 then
+      showMessage("AoB Scan for bptr failed, pattern not found")
+  else
+      showMessage("AoB Scan for bptr failed, more than 1 matching pattern")
+  end
+  strings_clear(pcl)
+
+end
+</LuaScript>
+  <DisassemblerComments>
+    <DisassemblerComment>
+      <Address>"Client.exe"+193C62</Address>
+      <Comment>Call to function that calls our reversed function
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+1AE401</Address>
+      <Comment>Reads our ptr in to edx
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1EC0</Address>
+      <Comment>prolog
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1EC1</Address>
+      <Comment>prolog
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1EC3</Address>
+      <Comment>Logical AND operation of esp
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1EDB</Address>
+      <Comment>Make space on the stack for two local variables
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1EDE</Address>
+      <Comment>Save function variable
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1EEB</Address>
+      <Comment>Save function variable
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1EEC</Address>
+      <Comment>Save function variable
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1EED</Address>
+      <Comment>After calling edx, eax contains the memory address 
+of "Terrain begin structure".
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1EEF</Address>
+      <Comment>Take pointer from stack.
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1EF2</Address>
+      <Comment>Read the value the pointer is pointing to into ecx.
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1EF4</Address>
+      <Comment>Check that ecx is positive.
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1EF6</Address>
+      <Comment>Jump over multiplication of 23 if the pointer in edx 
+is a negative value.
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1EF8</Address>
+      <Comment>Move the value of the pointer from the stack +0x4 
+into esi. esi is the y index we clicked.
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1EFF</Address>
+      <Comment>Read the size of the terrain (X) into edx.
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F02</Address>
+      <Comment>Multiply the size X by 23d.
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F05</Address>
+      <Comment>Make sure we don't read outside the array size.
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F09</Address>
+      <Comment>Read Y
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F15</Address>
+      <Comment>cleanup
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F19</Address>
+      <Comment>clean up
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F20</Address>
+      <Comment>Restore function variable
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F21</Address>
+      <Comment>Restore function variable
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F22</Address>
+      <Comment>Restore function variable
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F23</Address>
+      <Comment>Epilog
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F25</Address>
+      <Comment>Epilog
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F26</Address>
+      <Comment>End of function
+Where do we return TO!?
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F29</Address>
+      <Comment>ebx = pointer to class
+value of ebx is starting address (vftable) = edx
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F2E</Address>
+      <Comment>preserve value in eax
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F34</Address>
+      <Comment>24c offset used.
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F3F</Address>
+      <Comment>recursive hell
+In here is probably where we find the path to where 
+we clicked.
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"Client.exe"+2A1F44</Address>
+      <Comment>clear esi
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"PathOfExile.exe"+64775</Address>
+      <Comment>delete &amp; free the object
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"PathOfExile.exe"+91E02</Address>
+      <Comment>inc index by 1 function
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"PathOfExile.exe"+1A527B</Address>
+      <Comment>Mouse X value accessed (ebx+155C)
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"PathOfExile.exe"+1A5281</Address>
+      <Comment>Store WorldBase in eax
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"PathOfExile.exe"+1A5289</Address>
+      <Comment>Mouse Y
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"PathOfExile.exe"+1A528F</Address>
+      <Comment>We are in world?
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"PathOfExile.exe"+1A5291</Address>
+      <Comment>jump if not in world
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"PathOfExile.exe"+1A5297</Address>
+      <Comment>If character loaded
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"PathOfExile.exe"+1A52A4</Address>
+      <Comment>move 14B0 offset from BaseFrame (mostly 0)
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"PathOfExile.exe"+1A52BD</Address>
+      <Comment>Check if value of baseframe is negative (maybe 
+checking if frame is fully loaded)
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"PathOfExile.exe"+1EB274</Address>
+      <Comment>Access Mods Component
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"PathOfExile.exe"+45310D</Address>
+      <Comment>start
+</Comment>
+    </DisassemblerComment>
+    <DisassemblerComment>
+      <Address>"PathOfExile.exe"+4535F4</Address>
+      <Comment>mov memory adr of first socket into ecx
+</Comment>
+    </DisassemblerComment>
+  </DisassemblerComments>
+</CheatTable>
